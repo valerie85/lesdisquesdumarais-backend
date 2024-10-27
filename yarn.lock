@@ -235,6 +235,13 @@ detect-libc@^2.0.0:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.3.tgz#f0cd503b40f9939b894697d19ad50895e30cf700"
   integrity sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==
 
+disconnect@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/disconnect/-/disconnect-1.2.2.tgz#449e43c70e2f8bff0f36a0a18826a406bfd8f82a"
+  integrity sha512-0QWtdUdijooW0hUa4V5CYm6eQcWThKBh+1pnFk3C8gJo7zQQz+AX6Hs41df/DMjUeD6SN7UBQzdFwpxZv+Vdbw==
+  dependencies:
+    oauth-1.0a "2.x.x"
+
 dotenv@^16.4.5:
   version "16.4.5"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.5.tgz#cdd3b3b604cb327e286b4762e13502f717cb099f"
@@ -605,6 +612,11 @@ npmlog@^5.0.1:
     console-control-strings "^1.1.0"
     gauge "^3.0.0"
     set-blocking "^2.0.0"
+
+oauth-1.0a@2.x.x:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/oauth-1.0a/-/oauth-1.0a-2.2.6.tgz#eadbccdb3bceea412d24586e6f39b2b412f0e491"
+  integrity sha512-6bkxv3N4Gu5lty4viIcIAnq5GbxECviMBeKR3WX/q87SPQ8E8aursPZUtsXDnxCs787af09WPRBLqYrf/lwoYQ==
 
 object-assign@^4, object-assign@^4.1.1:
   version "4.1.1"

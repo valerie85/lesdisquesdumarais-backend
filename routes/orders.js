@@ -39,7 +39,7 @@ router.post('/', async (req, res) => {
 
         res.status(200).json({ result: true, order: returnOrder })
     } catch (error) {
-        res.status(500).json({ result: false, error: 'Failed to save.', error })
+        res.status(500).json({ result: false, error: 'Failed to save.', details: error.message })
     }
 })
 
@@ -59,7 +59,7 @@ router.patch('/:id', async (req, res) => {
             res.status(404).json({result: false, error: 'Order not found'})
         }
     } catch (error) {
-res.status(500).json({result:false, error: 'failed to update order'})
+res.status(500).json({result:false, error: 'failed to update order', details: error.message})
     }
 })
 
@@ -68,10 +68,12 @@ router.get('/:userId' , async (req,res)=>{
     try {
         const orders = await Order.find({user:req.params.userId});
         if (orders.length > 0) {
-            res.statut(200).
+            res.status(200).json({result: true, orders})
+        }else{
+            res.status(404).json({result: false, error:' no orders found for user'})
         }
     } catch (error) {
-        
+        res.status(500).json({result:false, error:'Failed to get orders', details: error.message})
     }
 })
 

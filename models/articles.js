@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')    
+const mongoose = require('mongoose'); 
 
 
 //modifié et complété pour genre, style et tracklist sur les formats reçus +qq pb de syntaxe
@@ -19,10 +19,10 @@ const articleSchema = new mongoose.Schema({
     tracklist:{type:[{String}]},
     createdAt: { type: Date, default: Date.now },
     selling_Date: {type:Date,default: null},
-    isArchived: {type:Boolean},
-    isSold: {type:Boolean},
+    isArchived: {type:Boolean,default: false},
+    isSold: {type:Boolean ,default: false},
     pictures: {type:[String]},
-})
+});
 
 const Article = mongoose.model('articles', articleSchema);
 

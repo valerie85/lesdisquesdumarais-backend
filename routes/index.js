@@ -89,6 +89,7 @@ const fs = require('fs');
 
 // lire le fichier json
 //const newData = JSON.parse(fs.readFileSync('./article.json', 'utf8'))
+
 const picturesToSave=[
   {release_id:7066010, pictures : [
   'https://res.cloudinary.com/du1anmu9i/image/upload/f_auto,q_auto/o6hmt86kddjjbyktzvpk',

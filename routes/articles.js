@@ -5,7 +5,7 @@ require('../models/connection');
 const Article = require('../models/articles');
 
 /* GET articles listing. */
-/*router.get('/', function (req, res) {
+router.get('/', function (req, res) {
     Article.find()
         .populate('tracklist')
         .then(articlesData => {
@@ -16,9 +16,9 @@ const Article = require('../models/articles');
             }
         });
 });
-*/
+
 //GET one Article infos by release_id pour l'affichage d'un article
-/*router.get('/:release_id', function (req, res) {
+router.get('/byrelease/:release_id', function (req, res) {
     Article.findOne({ release_id: req.params.release_id })
         .populate('tracklist')
         .then(articleData => {
@@ -29,9 +29,9 @@ const Article = require('../models/articles');
             }
         });
 });
-*/
+
 //GET All Articles infos by artist
-router.get('/:artist', function (req, res) {
+router.get('/byartist/:artist', function (req, res) {
     Article.find({ artist: { $regex: new RegExp(req.params.artist, 'i') } })
         .then(articlesData => {
             console.log(articlesData)
@@ -42,8 +42,16 @@ router.get('/:artist', function (req, res) {
             }
         });
 });
-
-
-
+//GET All Articles infos by genre
+router.get('/bygender/:genre', function (req, res) {
+    Article.find({ genre: { $regex: new RegExp(req.params.genre, 'i') } })
+        .then(genreData => {
+             if (genreData) {
+                res.json({ result: true, genreArticles: genreData });
+            } else {
+                res.json({ result: false, error :'Genre not found'});
+            }
+        });
+});
 
 module.exports = router;

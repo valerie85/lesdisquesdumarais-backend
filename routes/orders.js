@@ -64,4 +64,16 @@ res.status(500).json({result:false, error: 'failed to update order'})
 })
 
 
+router.get('/:userId' , async (req,res)=>{
+    try {
+        const orders = await Order.find({user:req.params.userId});
+        if (orders.length > 0) {
+            res.statut(200).
+        }
+    } catch (error) {
+        
+    }
+})
+
+
 module.exports = router;

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const orderSchema = new mongoose.Schema({
     user: { type: mongoose.Schema.Types.ObjectId, ref: 'users', required: true },
-    order_date: { type: Date, default: Date.now, required: true },
+    order_date: { type: Date, default: Date.now},
     total: { type: Number, required: true },
     shipment_operator: { type: String, required: true },
     shipment_price: { type: Number, required: true },

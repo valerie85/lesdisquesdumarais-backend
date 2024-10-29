@@ -66,7 +66,7 @@ res.status(500).json({result:false, error: 'failed to update order', details: er
 
 router.get('/:userId' , async (req,res)=>{
     try {
-        const orders = await Order.find({user:req.params.userId});
+        const orders = await Order.find({user:req.params.userId}).populate('articles');
         if (orders.length > 0) {
             res.status(200).json({result: true, orders})
         }else{

@@ -80,7 +80,7 @@ router.get('/id', async (req, res) => {
   try {
     const user = await User.findOne({ token });
     if (user) {
-      res.json({ result: true, _id: user._id })
+      res.json({ result: true, _id: user._id, isAdmin: user.isAdmin })
     } else {
       res.status(404).json({ result: false, message: 'user not found' })
     }

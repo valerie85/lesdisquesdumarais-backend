@@ -81,4 +81,24 @@ router.post('/:articleId/images', async (req, res) => {
     }
 })
 
+
+router.patch('/:articleId', async(req,res)=>{
+    const {articleId} = req.params;
+    const {isArchived,selling_Date} = req.body;
+    try {
+        const updateArticle = await Article.findByIdAndUpdate(
+            articleId,
+            {isArchived,selling_Date},
+            {new:true}
+        )
+        if(!updateArticle){
+            return res.status(404).json({result: false, message:'article non trouver'})
+        }
+        res.status(200).json({result: false, message:'Article mis à jour avec succes'})
+    } catch (error) {
+        res.status(500).json({result: false, message:"Erreur lors de l'update de l'article", details:error.message})
+    }
+})
+
+
 module.exports = router;

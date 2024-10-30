@@ -8,12 +8,12 @@ const uid2 = require("uid2");
 const bcrypt = require("bcrypt");
 
 router.post("/signup", (req, res) => {
-  if (!checkBody(req.body, ["firstname","lastname", "password"])) {
+  if (!checkBody(req.body, ["firstName","lastName", "password"])) {
     res.json({ result: false, error: "Missing or empty fields" });
     return;
   }
 
-  User.findOne({ firstname: req.body.firstname, lastname: req.body.lastname, email: req.body.email }).then((data) => {
+  User.findOne({ firstname: req.body.firstName, lastname: req.body.lastName, email: req.body.email }).then((data) => {
     if (data === null) {
       const hash = bcrypt.hashSync(req.body.password, 10);
       const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
@@ -21,21 +21,20 @@ router.post("/signup", (req, res) => {
       const email = req.body.email
 
       if(emailPattern.test(email)) {
-        res.json({ message: "Email valide"})
+        console.log({ message: "Email valide"})
       } else {
-        res.json({ message: "Email non valide"})
+        console.log({ message: "Email non valide"})
       } 
-
       const newUser = new User({
-        firstname: req.body.firstname,
-        lastname: req.body.lastname,
+        firstname: req.body.firstName,
+        lastname: req.body.lastName,
         email: req.body.email,
         password: hash,
         token: uid2(32),
       });
 
       newUser.save().then((newDoc) => {
-        res.json({ result: true, token: newDoc.token });
+        res.json({ result: true, token: newDoc.token, email: newDoc.email });
       });
     } else {
       res.json({ result: false, error: "Cet utilisateur existe déjà" });
@@ -51,7 +50,7 @@ router.post("/signin", (req, res) => {
 
   User.findOne({ email: req.body.email }).then((data) => {
     if (data && bcrypt.compareSync(req.body.password, data.password)) {
-      res.json({ result: true, token: data.token, message: "L'utilisteur est bien connecté" });
+      res.json({ result: true, token: data.token, firstName: data.firstname, email: data.email, message: "L'utilisateur est bien connecté" });
     } else {
       res.json({
         result: false,

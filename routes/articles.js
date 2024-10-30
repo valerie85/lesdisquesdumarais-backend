@@ -8,6 +8,7 @@ const Article = require('../models/articles');
 router.get('/', function (req, res) {
     Article.find()
         .populate('tracklist')
+        .sort({ createdAt: 'desc' })
         .then(articlesData => {
             if (articlesData) {
                 res.json({ result: true, allArticles: articlesData });
@@ -33,6 +34,7 @@ router.get('/byrelease/:release_id', function (req, res) {
 //GET All Articles infos by artist
 router.get('/byartist/:artist', function (req, res) {
     Article.find({ artist: { $regex: new RegExp(req.params.artist, 'i') } })
+        .sort({ createdAt: 'desc' })
         .then(articlesData => {
             console.log(articlesData)
             if (articlesData) {
@@ -43,9 +45,12 @@ router.get('/byartist/:artist', function (req, res) {
         });
 });
 //GET All Articles infos by genre
-router.get('/bygender/:genre', function (req, res) {
-    Article.find({ genre: { $regex: new RegExp(req.params.genre, 'i') } })
+router.get('/bygenre/:genre', function (req, res) {
+    let genreName = req.params.genre.replace(/_/g, '/');
+    Article.find({ genre: { $regex: new RegExp(genreName, 'i') } })
+        .sort({ createdAt: 'desc' })
         .then(genreData => {
+            console.log("genreData", genreData)
              if (genreData) {
                 res.json({ result: true, genreArticles: genreData });
             } else {

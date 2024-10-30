@@ -13,7 +13,7 @@ router.get('/', function (req, res) {
             if (articlesData) {
                 res.json({ result: true, allArticles: articlesData });
             } else {
-                res.json({ result: false, error :'Articles not found'});
+                res.json({ result: false, error: 'Articles not found' });
             }
         });
 });
@@ -26,7 +26,7 @@ router.get('/byrelease/:release_id', function (req, res) {
             if (articleData) {
                 res.json({ result: true, article: articleData });
             } else {
-                res.json({ result: false, error :'Release not found'});
+                res.json({ result: false, error: 'Release not found' });
             }
         });
 });
@@ -40,7 +40,7 @@ router.get('/byartist/:artist', function (req, res) {
             if (articlesData) {
                 res.json({ result: true, artistArticles: articlesData });
             } else {
-                res.json({ result: false, error :'Artist not found'});
+                res.json({ result: false, error: 'Artist not found' });
             }
         });
 });
@@ -51,12 +51,34 @@ router.get('/bygenre/:genre', function (req, res) {
         .sort({ createdAt: 'desc' })
         .then(genreData => {
             console.log("genreData", genreData)
-             if (genreData) {
+            if (genreData) {
                 res.json({ result: true, genreArticles: genreData });
             } else {
-                res.json({ result: false, error :'Genre not found'});
+                res.json({ result: false, error: 'Genre not found' });
             }
         });
 });
+
+
+router.post('/:articleId/images', async (req, res) => {
+    const { articleId } = req.params;
+    const { url } = req.body;
+    if (!url) {
+        return res.status(400).json({ result: false, message: "l'url de l'image est manquante" })
+    }
+    try {
+        const updateArticle = await Article.findByIdAndUpdate(
+            articleId,
+            { $push: { pictures: url } },
+            { new: true }
+        )
+        if (!updateArticle) {
+            return res.status(404).json({ message: "article non trouver." });
+        }
+        res.status(200).json({ restult: true, message: "l'image à bien ete ajouter" })
+    } catch (error) {
+        res.status(500).json({ result: false, message: "Erreur lors de l'ajout de l'image", details: error.message })
+    }
+})
 
 module.exports = router;

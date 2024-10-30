@@ -1,1052 +1,3206 @@
 [
-    {
-      "listing_id": 3280545550,
-      "artist": "Pat Benatar",
-      "title": "Precious Time",
-      "label": "Chrysalis",
-      "catno": "ZCHR 1346",
-      "format": "Cass, Album",
-      "release_id": 29990083,
-      "status": "Draft",
-      "price": 9.0,
-      "listed": "2024-10-05 22:43:24",
-      "comments": "",
-      "media_condition": "Very Good Plus (VG+)",
-      "sleeve_condition": "Very Good Plus (VG+)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 65,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280546279,
-      "artist": "Mike Oldfield",
-      "title": "Tubular Bells",
-      "label": "Virgin, Virgin",
-      "catno": "4 840 018, B 840.018",
-      "format": "Cass, Album",
-      "release_id": 28915417,
-      "status": "Draft",
-      "price": 9.0,
-      "listed": "2024-10-05 22:51:31",
-      "comments": "",
-      "media_condition": "Very Good Plus (VG+)",
-      "sleeve_condition": "Very Good Plus (VG+)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 65,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280547521,
-      "artist": "Neil Norman",
-      "title": "Star Wars",
-      "label": "Vogue, Vogue, Vogue",
-      "catno": "45. GN. 140.294, 45.GN. 140294, 45.GN 140294",
-      "format": "7\", Single",
-      "release_id": 1120573,
-      "status": "Draft",
-      "price": 9.0,
-      "listed": "2024-10-05 23:02:22",
-      "comments": "",
-      "media_condition": "Very Good Plus (VG+)",
-      "sleeve_condition": "Very Good (VG)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 60,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280547743,
-      "artist": "Christopher Moore",
-      "title": "L'Été Ardent",
-      "label": "Polydor",
-      "catno": "813 208-7",
-      "format": "7\", Single",
-      "release_id": 8295500,
-      "status": "Draft",
-      "price": 9.0,
-      "listed": "2024-10-05 23:04:23",
-      "comments": "",
-      "media_condition": "Very Good Plus (VG+)",
-      "sleeve_condition": "Very Good Plus (VG+)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 60,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280548178,
-      "artist": "The Alan Bown Set / Jacques Loussier",
-      "title": "Jeu De Massacre (Bande Sonore Originale Du Film)",
-      "label": "Disques Vogue, Disques Vogue",
-      "catno": "EPL 8537, EPL. 8537",
-      "format": "7\", EP",
-      "release_id": 1755714,
-      "status": "Draft",
-      "price": 20.0,
-      "listed": "2024-10-05 23:08:07",
-      "comments": "",
-      "media_condition": "Very Good (VG)",
-      "sleeve_condition": "Very Good Plus (VG+)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 60,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280548529,
-      "artist": "Jack Arel",
-      "title": "Aux Frontières Du Possible",
-      "label": "Riviera (3)",
-      "catno": "231375",
-      "format": "7\", EP",
-      "release_id": 4217471,
-      "status": "Draft",
-      "price": 25.0,
-      "listed": "2024-10-05 23:11:59",
-      "comments": "",
-      "media_condition": "Very Good (VG)",
-      "sleeve_condition": "Very Good Plus (VG+)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 60,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280548730,
-      "artist": "Georges Garvarentz",
-      "title": "La Part Des Lions",
-      "label": "Barclay",
-      "catno": "61.497 L",
-      "format": "7\", Single",
-      "release_id": 3661528,
-      "status": "Draft",
-      "price": 12.0,
-      "listed": "2024-10-05 23:13:52",
-      "comments": "",
-      "media_condition": "Very Good Plus (VG+)",
-      "sleeve_condition": "Near Mint (NM or M-)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 60,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280549198,
-      "artist": "Ennio Morricone",
-      "title": "Bande Originale Du Film Le Clan Des Siciliens",
-      "label": "20th Century Fox Records, 20th Century Fox Records",
-      "catno": "640 003, N° 640 003",
-      "format": "7\", Single",
-      "release_id": 6290291,
-      "status": "Draft",
-      "price": 9.0,
-      "listed": "2024-10-05 23:17:43",
-      "comments": "",
-      "media_condition": "Very Good Plus (VG+)",
-      "sleeve_condition": "Very Good (VG)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 60,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280549378,
-      "artist": "Philippe Sarde",
-      "title": "Bande Originale Du Film Max Et Les Ferrailleurs",
-      "label": "Pema Music, Pema Music",
-      "catno": "PEM 90 503, PEM 90 503 (M)",
-      "format": "7\", EP, Mono",
-      "release_id": 1842327,
-      "status": "Draft",
-      "price": 9.0,
-      "listed": "2024-10-05 23:19:27",
-      "comments": "",
-      "media_condition": "Very Good Plus (VG+)",
-      "sleeve_condition": "Very Good Plus (VG+)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 60,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-      "listing_id": 3280549597,
-      "artist": "Michel Magne, Jean Yanne",
-      "title": "Tout Le Monde Il Est Beau, Tout Le Monde Il Est Gentil (Bande Originale Du Film De Jean Yanne)",
-      "label": "Barclay, Barclay",
-      "catno": "61.612, 61.612 J",
-      "format": "7\", Single",
-      "release_id": 2247378,
-      "status": "Draft",
-      "price": 9.0,
-      "listed": "2024-10-05 23:21:22",
-      "comments": "",
-      "media_condition": "Very Good Plus (VG+)",
-      "sleeve_condition": "Very Good (VG)",
-      "accept_offer": "N",
-      "external_id": "",
-      "weight": 60,
-      "format_quantity": 1,
-      "location": "",
-      "quantity": 1
-    },
-    {
-        "listing_id": 3280550404,
-        "artist": "Esquivel And His Orchestra",
-        "title": "Musique En 3 D",
-        "label": "RCA",
-        "catno": "A 75.304",
-        "format": "7\", EP, Mono",
-        "release_id": 10974615,
-        "status": "Draft",
-        "price": 20.0,
-        "listed": "2024-10-05 23:28:49",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Very Good (VG)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 60,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+  {
+    "listing_id": 3280545550,
+    "artist": "Pat Benatar",
+    "title": "Precious Time",
+    "label": "Chrysalis",
+    "catno": "ZCHR 1346",
+    "format": "Cass, Album",
+    "release_id": 29990083,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-05 22:43:24",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 65,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Pop Rock"
+    ],
+    "year": "1981",
+    "tracklist": [
+      {
+        "title": "Promises In The Dark",
+        "duration": ""
       },
       {
-        "listing_id": 3280549873,
-        "artist": "Patrick Schulmann",
-        "title": "Zig Zag Story (Bande Originale Du Film)",
-        "label": "Claap Première",
-        "catno": "CL 83006",
-        "format": "7\", Single",
-        "release_id": 4799231,
-        "status": "Draft",
-        "price": 5.0,
-        "listed": "2024-10-06 00:02:00",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Good (G)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 60,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+        "title": "Fire And Ice",
+        "duration": ""
       },
       {
-        "listing_id": 3280555270,
-        "artist": "Cornu",
-        "title": "À3",
-        "label": "Island Records",
-        "catno": "542317-2",
-        "format": "CD, Album",
-        "release_id": 3340975,
-        "status": "Draft",
-        "price": 9.0,
-        "listed": "2024-10-06 00:11:10",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+        "title": "Just Like Me",
+        "duration": ""
       },
       {
-        "listing_id": 3280555351,
-        "artist": "Manimal (5)",
-        "title": "Eros & Thanatos",
-        "label": "Jerkov Musiques",
-        "catno": "JER003",
-        "format": "CD, Album",
-        "release_id": 2986513,
-        "status": "Draft",
-        "price": 15.0,
-        "listed": "2024-10-06 00:12:13",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+        "title": "Precious Time",
+        "duration": ""
       },
       {
-        "listing_id": 3280555666,
-        "artist": "Echobelly",
-        "title": "On",
-        "label": "Rhythm King, Rhythm King, Fauve Records",
-        "catno": "481137 2, 01-481137-10, FAU 481137 2",
-        "format": "CD, Album",
-        "release_id": 382881,
-        "status": "Draft",
-        "price": 9.0,
-        "listed": "2024-10-06 00:14:48",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+        "title": "It's A Tuff Life",
+        "duration": ""
       },
       {
-        "listing_id": 3280555840,
-        "artist": "Toumast",
-        "title": "Ishumar",
-        "label": "Kraked, Le Village Vert, Wagram Music",
-        "catno": "3118162, VIVE 141",
-        "format": "CD, Album",
-        "release_id": 6703815,
-        "status": "Draft",
-        "price": 9.0,
-        "listed": "2024-10-06 00:16:15",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+        "title": "Take It Any Way You Want It",
+        "duration": ""
       },
       {
-        "listing_id": 3280556197,
-        "artist": "Sonia Wieder-Atherton",
-        "title": "Little Girl Blue From Nina Simone",
-        "label": "Naïve",
-        "catno": "V 5376",
-        "format": "CD, Album",
-        "release_id": 7066010,
-        "status": "Draft",
-        "price": 15.0,
-        "listed": "2024-10-06 00:19:02",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+        "title": "Evil Genius",
+        "duration": ""
       },
       {
-        "listing_id": 3280557205,
-        "artist": "Hole (2)",
-        "title": "Pretty On The Inside",
-        "label": "City Slang, City Slang",
-        "catno": "7243 8404572 2, SLANG 012",
-        "format": "CD, Album, RE",
-        "release_id": 5657300,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 00:26:22",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+        "title": "Hard To Believe",
+        "duration": ""
       },
       {
-        "listing_id": 3280557793,
-        "artist": "Pinetop Perkins",
-        "title": "On Top",
-        "label": "Sky Ranch Records",
-        "catno": "SR 652330",
-        "format": "CD, Album",
-        "release_id": 13091627,
-        "status": "Draft",
-        "price": 10.0,
-        "listed": "2024-10-06 00:29:59",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280558129,
-        "artist": "Castafiore Bazooka",
-        "title": "Les Îles Du Désir",
-        "label": "Lucie Production, Lucie Production",
-        "catno": "LUC 9805, 08897-2",
-        "format": "CD, Album",
-        "release_id": 8197736,
-        "status": "Draft",
-        "price": 9.0,
-        "listed": "2024-10-06 00:32:13",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280558315,
-        "artist": "William Z. Villain",
-        "title": "Stonedigger",
-        "label": "Normandeep Blues Records",
-        "catno": "none",
-        "format": "CD, Album",
-        "release_id": 12641077,
-        "status": "Draft",
-        "price": 9.0,
-        "listed": "2024-10-06 00:33:10",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280558723,
-        "artist": "Steve Roux",
-        "title": "Steve Roux",
-        "label": "Pointblank",
-        "catno": "VPBCD 13 7 077707086802 2 2",
-        "format": "CD, Album",
-        "release_id": 23504519,
-        "status": "Draft",
-        "price": 9.0,
-        "listed": "2024-10-06 00:35:43",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280558999,
-        "artist": "Hamez Seba & The Bayina Tribe",
-        "title": "Mungu Wetu",
-        "label": "Famille Bayina",
-        "catno": "FB01H3",
-        "format": "CD, Album",
-        "release_id": 12481324,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 00:37:49",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280559470,
-        "artist": "Various",
-        "title": "Apocalypse, Livre 66, Chapitre Premier",
-        "label": "Season Of Mist",
-        "catno": "SOM 088",
-        "format": "2xCD, Comp, Enh",
-        "release_id": 3828801,
-        "status": "Draft",
-        "price": 9.0,
-        "listed": "2024-10-06 00:42:07",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 170,
-        "format_quantity": 2,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280560205,
-        "artist": "Thimothey Herelle",
-        "title": "Griffe",
-        "label": "Mélodie Distribution",
-        "catno": "79578-2",
-        "format": "CD, Album",
-        "release_id": 12428613,
-        "status": "Draft",
-        "price": 9.0,
-        "listed": "2024-10-06 00:48:35",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280561453,
-        "artist": "Parliament",
-        "title": "Parliament",
-        "label": "Mercury, Mercury",
-        "catno": "542 382 2, 542 382-2",
-        "format": "CD, Comp",
-        "release_id": 24874766,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 00:51:44",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280561618,
-        "artist": "Isis (6)",
-        "title": "Panopticon",
-        "label": "Ipecac Recordings",
-        "catno": "IPC-57",
-        "format": "CD, Album",
-        "release_id": 2510399,
-        "status": "Draft",
-        "price": 15.0,
-        "listed": "2024-10-06 00:53:40",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 85,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280561846,
-        "artist": "Moho",
-        "title": "...He Visto La Cruz Al Reves",
-        "label": "Throne Records, Beat Generation",
-        "catno": "Chapter 25, BEAT 018",
-        "format": "CD, Album + DVD",
-        "release_id": 2038490,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 00:55:45",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 170,
-        "format_quantity": 2,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280563607,
-        "artist": "The Art Ensemble Of Chicago",
-        "title": "\"Great Black Music\" - A Jackson In Your House / Message To Our Folks",
-        "label": "BYG Records",
-        "catno": "529.204",
-        "format": "2xLP, Comp",
-        "release_id": 1117395,
-        "status": "Draft",
-        "price": 15.0,
-        "listed": "2024-10-06 01:08:36",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Good (G)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 460,
-        "format_quantity": 2,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280563928,
-        "artist": "Bertrand Renaudin",
-        "title": "Ex-Voto",
-        "label": "Editions Pluriel",
-        "catno": "PL 3317",
-        "format": "LP, Album",
-        "release_id": 1882240,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 01:10:42",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Very Good (VG)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280564351,
-        "artist": "Keith Jarrett",
-        "title": "The Survivors' Suite",
-        "label": "ECM Records, ECM Records",
-        "catno": "ECM 1085, 2301 085",
-        "format": "LP, Album",
-        "release_id": 494905,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 01:14:07",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Very Good (VG)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280564957,
-        "artist": "Gilles Vigneault",
-        "title": "Enregistrement Public Au Théâtre Du Nouveau Monde",
-        "label": "L'Escargot",
-        "catno": "ESC 324",
-        "format": "LP, Album",
-        "release_id": 3798422,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 01:18:18",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280570309,
-        "artist": "Bugs Bunny Et Ses Amis",
-        "title": "A La Radio",
-        "label": "Warner Bros. Records",
-        "catno": "56314",
-        "format": "LP, Album",
-        "release_id": 7670298,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 01:21:56",
-        "comments": "",
-        "media_condition": "Very Good (VG)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280574527,
-        "artist": "Fafá De Belém",
-        "title": "Sozinha",
-        "label": "Philips",
-        "catno": "834 936-1",
-        "format": "LP, Album",
-        "release_id": 3556482,
-        "status": "Draft",
-        "price": 12.0,
-        "listed": "2024-10-06 01:25:04",
-        "comments": "",
-        "media_condition": "Very Good Plus (VG+)",
-        "sleeve_condition": "Very Good (VG)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280575271,
-        "artist": "Les Tireless",
-        "title": "Les Tireless",
-        "label": "Hit Parade",
-        "catno": "HPR 80",
-        "format": "LP, Album",
-        "release_id": 3146116,
-        "status": "Draft",
-        "price": 15.0,
-        "listed": "2024-10-06 01:29:35",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Very Good (VG)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280575952,
-        "artist": "Cornelius Cardew",
-        "title": "Thälmann Variations",
-        "label": "Matchless Recordings",
-        "catno": "MR10",
-        "format": "LP, Album",
-        "release_id": 2349118,
-        "status": "Draft",
-        "price": 35.0,
-        "listed": "2024-10-06 01:33:14",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280576495,
-        "artist": "René Daudan",
-        "title": "Récolte 78",
-        "label": "Le Kiosque D'Orphée",
-        "catno": "KO/08.1104",
-        "format": "LP, Album, Gat",
-        "release_id": 8629191,
-        "status": "Draft",
-        "price": 24.0,
-        "listed": "2024-10-06 01:35:53",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Very Good Plus (VG+)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280576909,
-        "artist": "Spiritualized",
-        "title": "Tout Etait Beau",
-        "label": "Bella Union",
-        "catno": "Bella1270vfr",
-        "format": "LP, Album, Ltd",
-        "release_id": 23052176,
-        "status": "Draft",
-        "price": 25.0,
-        "listed": "2024-10-06 01:38:17",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280584298,
-        "artist": "Swans",
-        "title": "My Father Will Guide Me Up A Rope To The Sky",
-        "label": "Young God Records, Mute",
-        "catno": "YG43, STUMM362",
-        "format": "LP, Album, RE",
-        "release_id": 5492632,
-        "status": "Draft",
-        "price": 20.0,
-        "listed": "2024-10-06 01:40:35",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280591378,
-        "artist": "Can",
-        "title": "Live In Cuxhaven 1976",
-        "label": "Spoon Records, Mute",
-        "catno": "SPOON65",
-        "format": "LP, Album, Ltd, Cur",
-        "release_id": 24789881,
-        "status": "Draft",
-        "price": 25.0,
-        "listed": "2024-10-06 01:42:32",
-        "comments": "",
-        "media_condition": "Near Mint (NM or M-)",
-        "sleeve_condition": "Near Mint (NM or M-)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280605169,
-        "artist": "Can",
-        "title": "Tago Mago",
-        "label": "Spoon Records",
-        "catno": "XSPOON6/7",
-        "format": "2xLP, Album, RE, RM, Gat",
-        "release_id": 5789703,
-        "status": "Draft",
-        "price": 35.0,
-        "listed": "2024-10-06 01:45:43",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 460,
-        "format_quantity": 2,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280618744,
-        "artist": "Can",
-        "title": "Ege Bamyasi",
-        "label": "Mute, Spoon Records",
-        "catno": "XSPOON8_UK, XSPOON8",
-        "format": "LP, Album, RE, RM",
-        "release_id": 5821764,
-        "status": "Draft",
-        "price": 30.0,
-        "listed": "2024-10-06 01:49:00",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280634044,
-        "artist": "NONN",
-        "title": "XVII",
-        "label": "Fuzz Club Records",
-        "catno": "FC103V12",
-        "format": "LP, Album, Ltd, Whi",
-        "release_id": 13051990,
-        "status": "Draft",
-        "price": 20.0,
-        "listed": "2024-10-06 01:53:30",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280640728,
-        "artist": "The Gluts",
-        "title": "Fuzz Club Sessions",
-        "label": "Fuzz Club Records",
-        "catno": "FCS10EX",
-        "format": "12\", Ltd, S/Edition, Whi",
-        "release_id": 12814420,
-        "status": "Draft",
-        "price": 25.0,
-        "listed": "2024-10-06 01:55:23",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280652818,
-        "artist": "Dreamweapon",
-        "title": "Sol",
-        "label": "Fuzz Club Records",
-        "catno": "none",
-        "format": "LP, Album, Whi",
-        "release_id": 11713468,
-        "status": "Draft",
-        "price": 25.0,
-        "listed": "2024-10-06 01:59:04",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280658029,
-        "artist": "You Said Strange",
-        "title": "Fuzz Club Sessions No. 13",
-        "label": "Fuzz Club Records",
-        "catno": "FCS13",
-        "format": "12\", Ltd",
-        "release_id": 13837933,
-        "status": "Draft",
-        "price": 20.0,
-        "listed": "2024-10-06 02:00:59",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280661872,
-        "artist": "Rev Rev Rev",
-        "title": "Kykeon",
-        "label": "Fuzz Club Records",
-        "catno": "FC112V12",
-        "format": "LP, Album, Ltd, Blo",
-        "release_id": 14196127,
-        "status": "Draft",
-        "price": 20.0,
-        "listed": "2024-10-06 02:02:24",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280667521,
-        "artist": "Las Cobras",
-        "title": "Temporal",
-        "label": "Fuzz Club Records",
-        "catno": "none",
-        "format": "LP, Album, Ltd, Blu",
-        "release_id": 14722373,
-        "status": "Draft",
-        "price": 20.0,
-        "listed": "2024-10-06 02:04:28",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280673785,
-        "artist": "Moon Duo",
-        "title": "Live At Levitation",
-        "label": "The Reverberation Appreciation Society",
-        "catno": "RVRB-054",
-        "format": "LP, Album, Club, Ltd, Whi",
-        "release_id": 25206118,
-        "status": "Draft",
-        "price": 40.0,
-        "listed": "2024-10-06 02:07:03",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
-      },
-      {
-        "listing_id": 3280677868,
-        "artist": "The Gluts",
-        "title": "Ungrateful Heart",
-        "label": "Fuzz Club Records",
-        "catno": "FC150",
-        "format": "LP, Album, Tra",
-        "release_id": 20559865,
-        "status": "Draft",
-        "price": 20.0,
-        "listed": "2024-10-06 02:14:23",
-        "comments": "",
-        "media_condition": "Mint (M)",
-        "sleeve_condition": "Mint (M)",
-        "accept_offer": "N",
-        "external_id": "",
-        "weight": 230,
-        "format_quantity": 1,
-        "location": "",
-        "quantity": 1
+        "title": "Helter Skelter",
+        "duration": ""
       }
-  ] 
+    ]
+  },
+  {
+    "listing_id": 3280546279,
+    "artist": "Mike Oldfield",
+    "title": "Tubular Bells",
+    "label": "Virgin, Virgin",
+    "catno": "4 840 018, B 840.018",
+    "format": "Cass, Album",
+    "release_id": 28915417,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-05 22:51:31",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 65,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock",
+      "Pop"
+    ],
+    "style": [
+      "Acoustic",
+      "Prog Rock"
+    ],
+    "year": "1974",
+    "tracklist": [
+      {
+        "title": "Side One",
+        "duration": ""
+      },
+      {
+        "title": "Side Two",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280547521,
+    "artist": "Neil Norman",
+    "title": "Star Wars",
+    "label": "Vogue, Vogue, Vogue",
+    "catno": "45. GN. 140.294, 45.GN. 140294, 45.GN 140294",
+    "format": "7\", Single",
+    "release_id": 1120573,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-05 23:02:22",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good (VG)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Electronic",
+      "Stage & Screen"
+    ],
+    "style": [
+      "Modern Classical",
+      "Disco"
+    ],
+    "year": "1977",
+    "tracklist": [
+      {
+        "title": "Star Wars",
+        "duration": "2:19"
+      },
+      {
+        "title": "Re-Entry",
+        "duration": "2:14"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280547743,
+    "artist": "Christopher Moore",
+    "title": "L'Été Ardent",
+    "label": "Polydor",
+    "catno": "813 208-7",
+    "format": "7\", Single",
+    "release_id": 8295500,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-05 23:04:23",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Funk / Soul",
+      "Stage & Screen"
+    ],
+    "style": [
+      "Funk",
+      "Soundtrack"
+    ],
+    "year": "1983",
+    "tracklist": [
+      {
+        "title": "Close My Eyes",
+        "duration": "4:10"
+      },
+      {
+        "title": "Summer Love",
+        "duration": "3:25"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280548178,
+    "artist": "Alan Bown Set, The / Jacques Loussier",
+    "title": "Jeu De Massacre (Bande Sonore Originale Du Film)",
+    "label": "Disques Vogue, Disques Vogue",
+    "catno": "EPL 8537, EPL. 8537",
+    "format": "7\", EP",
+    "release_id": 1755714,
+    "status": "Draft",
+    "price": 20,
+    "listed": "2024-10-05 23:08:07",
+    "comments": "",
+    "media_condition": "Very Good (VG)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Jazz",
+      "Rock",
+      "Stage & Screen"
+    ],
+    "style": [
+      "Soundtrack",
+      "Garage Rock",
+      "Theme",
+      "Psychedelic Rock",
+      "Mod"
+    ],
+    "year": "1967",
+    "tracklist": [
+      {
+        "title": "Killing Game",
+        "duration": "4:17"
+      },
+      {
+        "title": "1",
+        "duration": "1:00"
+      },
+      {
+        "title": "2",
+        "duration": "3:05"
+      },
+      {
+        "title": "3",
+        "duration": "2:05"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280548529,
+    "artist": "Jack Arel",
+    "title": "Aux Frontières Du Possible",
+    "label": "Riviera (3)",
+    "catno": "231375",
+    "format": "7\", EP",
+    "release_id": 4217471,
+    "status": "Draft",
+    "price": 25,
+    "listed": "2024-10-05 23:11:59",
+    "comments": "",
+    "media_condition": "Very Good (VG)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Stage & Screen"
+    ],
+    "style": [
+      "Soundtrack"
+    ],
+    "year": "1971",
+    "tracklist": [
+      {
+        "title": "Tracking",
+        "duration": "3:26"
+      },
+      {
+        "title": "Sixieme Continent",
+        "duration": "1:56"
+      },
+      {
+        "title": "Si Bien",
+        "duration": "1:47"
+      },
+      {
+        "title": "Mutation",
+        "duration": "2:40"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280548730,
+    "artist": "Georges Garvarentz",
+    "title": "La Part Des Lions",
+    "label": "Barclay",
+    "catno": "61.497 L",
+    "format": "7\", Single",
+    "release_id": 3661528,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-05 23:13:52",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Jazz",
+      "Stage & Screen"
+    ],
+    "style": [
+      "Soundtrack",
+      "Soul-Jazz",
+      "Jazz-Funk"
+    ],
+    "year": "1968",
+    "tracklist": [
+      {
+        "title": "La Part Des Lions (Thème Principal)",
+        "duration": "2:26"
+      },
+      {
+        "title": "La Filature",
+        "duration": "2:45"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280549198,
+    "artist": "Ennio Morricone",
+    "title": "Bande Originale Du Film Le Clan Des Siciliens",
+    "label": "20th Century Fox Records, 20th Century Fox Records",
+    "catno": "640 003, N° 640 003",
+    "format": "7\", Single",
+    "release_id": 6290291,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-05 23:17:43",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good (VG)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Stage & Screen"
+    ],
+    "style": [
+      "Soundtrack"
+    ],
+    "year": "1969",
+    "tracklist": [
+      {
+        "title": "Dialogo N°2",
+        "duration": "3:18"
+      },
+      {
+        "title": "Tema Italiano ",
+        "duration": "3:35"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280549378,
+    "artist": "Philippe Sarde",
+    "title": "Bande Originale Du Film Max Et Les Ferrailleurs",
+    "label": "Pema Music, Pema Music",
+    "catno": "PEM 90 503, PEM 90 503 (M)",
+    "format": "7\", EP, Mono",
+    "release_id": 1842327,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-05 23:19:27",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Stage & Screen"
+    ],
+    "style": [
+      "Soundtrack",
+      "Theme"
+    ],
+    "year": "1970",
+    "tracklist": [
+      {
+        "title": "Max Et Les Ferrailleurs",
+        "duration": "3:09"
+      },
+      {
+        "title": "Generique Debut",
+        "duration": "1:45"
+      },
+      {
+        "title": "Le Bal Des Ferrailleurs",
+        "duration": "2:45"
+      },
+      {
+        "title": "Max, Abel Et Lily",
+        "duration": "1:00"
+      },
+      {
+        "title": "Generique Fin",
+        "duration": "1:35"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280549597,
+    "artist": "Michel Magne, Jean Yanne",
+    "title": "Tout Le Monde Il Est Beau, Tout Le Monde Il Est Gentil (Bande Originale Du Film De Jean Yanne)",
+    "label": "Barclay, Barclay",
+    "catno": "61.612, 61.612 J",
+    "format": "7\", Single",
+    "release_id": 2247378,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-05 23:21:22",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good (VG)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Non-Music",
+      "Pop",
+      "Stage & Screen"
+    ],
+    "style": [
+      "Soundtrack",
+      "Comedy",
+      "Chanson"
+    ],
+    "year": "1972",
+    "tracklist": [
+      {
+        "title": "Tout Le Monde Il Est Beau, Tout Le Monde Il Est Gentil",
+        "duration": "3:52"
+      },
+      {
+        "title": "Alleluia Garanti",
+        "duration": "3:25"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280550404,
+    "artist": "Esquivel And His Orchestra",
+    "title": "Musique En 3 D",
+    "label": "RCA",
+    "catno": "A 75.304",
+    "format": "7\", EP, Mono",
+    "release_id": 10974615,
+    "status": "Draft",
+    "price": 20,
+    "listed": "2024-10-05 23:28:49",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good (VG)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Jazz",
+      "Latin"
+    ],
+    "style": [
+      "Easy Listening",
+      "Space-Age",
+      "Latin Jazz"
+    ],
+    "year": "1957",
+    "tracklist": [
+      {
+        "title": "Siboney",
+        "duration": ""
+      },
+      {
+        "title": "Nocturnal",
+        "duration": ""
+      },
+      {
+        "title": "Besame Mucho",
+        "duration": ""
+      },
+      {
+        "title": "Vereda Tropical",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280549873,
+    "artist": "Patrick Schulmann",
+    "title": "Zig Zag Story (Bande Originale Du Film)",
+    "label": "Claap Première",
+    "catno": "CL 83006",
+    "format": "7\", Single",
+    "release_id": 4799231,
+    "status": "Draft",
+    "price": 5,
+    "listed": "2024-10-06 00:02:00",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Good (G)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 60,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Pop",
+      "Stage & Screen"
+    ],
+    "style": [
+      "Europop",
+      "Euro-Disco",
+      "Soundtrack"
+    ],
+    "year": "1983",
+    "tracklist": [
+      {
+        "title": "Zig Zag Story",
+        "duration": "4:05"
+      },
+      {
+        "title": "L'ange Et Les Nonnes",
+        "duration": "2:53"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280555270,
+    "artist": "Cornu",
+    "title": "À3",
+    "label": "Island Records",
+    "catno": "542317-2",
+    "format": "CD, Album",
+    "release_id": 3340975,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-06 00:11:10",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [],
+    "year": "2000",
+    "tracklist": [
+      {
+        "title": "Dans Le Bruit",
+        "duration": ""
+      },
+      {
+        "title": "Si Je Sais Pas Quoi Faire De Mes Dix Doigts",
+        "duration": ""
+      },
+      {
+        "title": "Bla Bla",
+        "duration": ""
+      },
+      {
+        "title": "Des Roses",
+        "duration": ""
+      },
+      {
+        "title": "Que Cet Amour",
+        "duration": ""
+      },
+      {
+        "title": "Mes Amis",
+        "duration": ""
+      },
+      {
+        "title": "J'Aimerais Bien Savoir",
+        "duration": ""
+      },
+      {
+        "title": "Les Vacances",
+        "duration": ""
+      },
+      {
+        "title": "Tranquille",
+        "duration": ""
+      },
+      {
+        "title": "J'Ai Un Père, Une Mère",
+        "duration": ""
+      },
+      {
+        "title": "J'Ai Peur De Tout",
+        "duration": ""
+      },
+      {
+        "title": "Tes Yeux",
+        "duration": ""
+      },
+      {
+        "title": "Mark Est Mort",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280555351,
+    "artist": "Manimal (5)",
+    "title": "Eros & Thanatos",
+    "label": "Jerkov Musiques",
+    "catno": "JER003",
+    "format": "CD, Album",
+    "release_id": 2986513,
+    "status": "Draft",
+    "price": 15,
+    "listed": "2024-10-06 00:12:13",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Death Metal",
+      "Experimental"
+    ],
+    "year": "2004",
+    "tracklist": [
+      {
+        "title": "Take Me",
+        "duration": "2:55"
+      },
+      {
+        "title": "Les Ailes",
+        "duration": "3:44"
+      },
+      {
+        "title": "Dead Meat",
+        "duration": "5:21"
+      },
+      {
+        "title": "Lu Et Approuvé",
+        "duration": "4:17"
+      },
+      {
+        "title": "Break",
+        "duration": "4:07"
+      },
+      {
+        "title": "Eros & Thanatos",
+        "duration": "3:47"
+      },
+      {
+        "title": "Talk",
+        "duration": "4:02"
+      },
+      {
+        "title": "Né Pour Tuer",
+        "duration": "4:20"
+      },
+      {
+        "title": "Die Hard",
+        "duration": "4:13"
+      },
+      {
+        "title": "Je Te Saigne",
+        "duration": "3:00"
+      },
+      {
+        "title": "The Dark Half",
+        "duration": "5:36"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280555666,
+    "artist": "Echobelly",
+    "title": "On",
+    "label": "Rhythm King, Rhythm King, Fauve Records",
+    "catno": "481137 2, 01-481137-10, FAU 481137 2",
+    "format": "CD, Album",
+    "release_id": 382881,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-06 00:14:48",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Indie Rock",
+      "Britpop"
+    ],
+    "year": "1995",
+    "tracklist": [
+      {
+        "title": "Car Fiction",
+        "duration": "2:31"
+      },
+      {
+        "title": "King Of The Kerb",
+        "duration": "3:59"
+      },
+      {
+        "title": "Great Things",
+        "duration": "3:31"
+      },
+      {
+        "title": "Natural Animal",
+        "duration": "3:27"
+      },
+      {
+        "title": "Go Away",
+        "duration": "2:44"
+      },
+      {
+        "title": "Pantyhoses And Roses",
+        "duration": "3:25"
+      },
+      {
+        "title": "Something Hot In A Cold Country",
+        "duration": "4:01"
+      },
+      {
+        "title": "Four Letter Word",
+        "duration": "2:51"
+      },
+      {
+        "title": "Nobody Like You",
+        "duration": "3:52"
+      },
+      {
+        "title": "In The Year",
+        "duration": "3:31"
+      },
+      {
+        "title": "Dark Therapy",
+        "duration": "5:30"
+      },
+      {
+        "title": "Worms And Angels",
+        "duration": "2:38"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280555840,
+    "artist": "Toumast",
+    "title": "Ishumar",
+    "label": "Kraked, Le Village Vert, Wagram Music",
+    "catno": "3118162, VIVE 141",
+    "format": "CD, Album",
+    "release_id": 6703815,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-06 00:16:15",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Blues",
+      "Folk, World, & Country"
+    ],
+    "style": [
+      "African"
+    ],
+    "year": "2006",
+    "tracklist": [
+      {
+        "title": "Ikalane Walegh",
+        "duration": ""
+      },
+      {
+        "title": "Tallyatidagh",
+        "duration": ""
+      },
+      {
+        "title": "Innulamane",
+        "duration": ""
+      },
+      {
+        "title": "Ammilana",
+        "duration": ""
+      },
+      {
+        "title": "Ezeref",
+        "duration": ""
+      },
+      {
+        "title": "Dounia",
+        "duration": ""
+      },
+      {
+        "title": "Maraou Otan",
+        "duration": ""
+      },
+      {
+        "title": "Kik Ayittma",
+        "duration": ""
+      },
+      {
+        "title": "Amiddinine",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280556197,
+    "artist": "Sonia Wieder-Atherton",
+    "title": "Little Girl Blue From Nina Simone",
+    "label": "Naïve",
+    "catno": "V 5376",
+    "format": "CD, Album",
+    "release_id": 7066010,
+    "status": "Draft",
+    "price": 15,
+    "listed": "2024-10-06 00:19:02",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Classical",
+      "Folk, World, & Country"
+    ],
+    "style": [],
+    "year": "2015",
+    "tracklist": [
+      {
+        "title": "Black Swann",
+        "duration": ""
+      },
+      {
+        "title": "Black Is The Colour Of My True Love's Hair ",
+        "duration": ""
+      },
+      {
+        "title": "Little Girl Blue",
+        "duration": ""
+      },
+      {
+        "title": "Fodder On My Wings ",
+        "duration": ""
+      },
+      {
+        "title": "Hey Buddy Bolden ",
+        "duration": ""
+      },
+      {
+        "title": "Images",
+        "duration": ""
+      },
+      {
+        "title": "Brahms-bach: Smucke Dich, O Liebe Seele, Op. 122 No. 5",
+        "duration": ""
+      },
+      {
+        "title": "You Can Have Him",
+        "duration": ""
+      },
+      {
+        "title": "I Wish I Knew How It Would Feel To Be Free ",
+        "duration": ""
+      },
+      {
+        "title": "That's All I Want From You",
+        "duration": ""
+      },
+      {
+        "title": "Brown Baby",
+        "duration": ""
+      },
+      {
+        "title": "Stars",
+        "duration": ""
+      },
+      {
+        "title": "Rachmaninoff: Sonata In G Minor, Op. 19 (andante) ",
+        "duration": ""
+      },
+      {
+        "title": "Come Ye",
+        "duration": ""
+      },
+      {
+        "title": "Return Home",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280557205,
+    "artist": "Hole (2)",
+    "title": "Pretty On The Inside",
+    "label": "City Slang, City Slang",
+    "catno": "7243 8404572 2, SLANG 012",
+    "format": "CD, Album, RE",
+    "release_id": 5657300,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 00:26:22",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Alternative Rock",
+      "Grunge"
+    ],
+    "year": "",
+    "tracklist": [
+      {
+        "title": "Teenage Whore",
+        "duration": ""
+      },
+      {
+        "title": "Babydoll",
+        "duration": ""
+      },
+      {
+        "title": "Garbage Man",
+        "duration": ""
+      },
+      {
+        "title": "Sassy",
+        "duration": ""
+      },
+      {
+        "title": "Good Sister / Bad Sister",
+        "duration": ""
+      },
+      {
+        "title": "Mrs. Jones",
+        "duration": ""
+      },
+      {
+        "title": "Berry",
+        "duration": ""
+      },
+      {
+        "title": "Loaded",
+        "duration": ""
+      },
+      {
+        "title": "Starbelly",
+        "duration": ""
+      },
+      {
+        "title": "Pretty On The Inside / Clouds",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280557793,
+    "artist": "Pinetop Perkins",
+    "title": "On Top",
+    "label": "Sky Ranch Records",
+    "catno": "SR 652330",
+    "format": "CD, Album",
+    "release_id": 13091627,
+    "status": "Draft",
+    "price": 10,
+    "listed": "2024-10-06 00:29:59",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Jazz",
+      "Blues"
+    ],
+    "style": [],
+    "year": "1992",
+    "tracklist": [
+      {
+        "title": "Kidney Stew",
+        "duration": "4:26"
+      },
+      {
+        "title": "Just Keep On Drinking",
+        "duration": "5:34"
+      },
+      {
+        "title": "Down In Mississippi",
+        "duration": "4:48"
+      },
+      {
+        "title": "Five Long Years",
+        "duration": "5:34"
+      },
+      {
+        "title": "Yancey Special",
+        "duration": "4:39"
+      },
+      {
+        "title": "Four Hand Strut",
+        "duration": "2:02"
+      },
+      {
+        "title": "Since I Fell For You",
+        "duration": "6:13"
+      },
+      {
+        "title": "Pinetoppin'",
+        "duration": "3:40"
+      },
+      {
+        "title": "Little Girl",
+        "duration": "3:50"
+      },
+      {
+        "title": "Look On Yonder Wall",
+        "duration": "4:33"
+      },
+      {
+        "title": "Worried Life Blues",
+        "duration": "3:28"
+      },
+      {
+        "title": "Just A Gigolo",
+        "duration": "1:48"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280558129,
+    "artist": "Castafiore Bazooka",
+    "title": "Les Îles Du Désir",
+    "label": "Lucie Production, Lucie Production",
+    "catno": "LUC 9805, 08897-2",
+    "format": "CD, Album",
+    "release_id": 8197736,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-06 00:32:13",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Funk / Soul",
+      "Blues",
+      "Folk, World, & Country"
+    ],
+    "style": [],
+    "year": "1998",
+    "tracklist": [
+      {
+        "title": "Les Îles Du Désir",
+        "duration": "4:03"
+      },
+      {
+        "title": "Fast Food Connection",
+        "duration": "3:34"
+      },
+      {
+        "title": "Le Génie Des Pochetrons",
+        "duration": "3:49"
+      },
+      {
+        "title": "Tankyo",
+        "duration": "3:19"
+      },
+      {
+        "title": "Luna Naranja",
+        "duration": "2:57"
+      },
+      {
+        "title": "Parfum De Dame En Noir",
+        "duration": "4:07"
+      },
+      {
+        "title": "La Licorne de Bagnolet",
+        "duration": "4:08"
+      },
+      {
+        "title": "Pochette Surprise",
+        "duration": "4:28"
+      },
+      {
+        "title": "La Chanson Du Demain",
+        "duration": "4:45"
+      },
+      {
+        "title": "Perles De Nuit",
+        "duration": "3:10"
+      },
+      {
+        "title": "Putain De Guerre",
+        "duration": "4:11"
+      },
+      {
+        "title": "La Lapine Occulte",
+        "duration": "6:27"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280558315,
+    "artist": "William Z. Villain",
+    "title": "Stonedigger",
+    "label": "Normandeep Blues Records",
+    "catno": "none",
+    "format": "CD, Album",
+    "release_id": 12641077,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-06 00:33:10",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Blues",
+      "Folk, World, & Country"
+    ],
+    "style": [],
+    "year": "2018",
+    "tracklist": [
+      {
+        "title": "Boom Goes Boom",
+        "duration": "3:01"
+      },
+      {
+        "title": "Papertrail Interlude ",
+        "duration": "0:51"
+      },
+      {
+        "title": "Papertrail",
+        "duration": "3:31"
+      },
+      {
+        "title": "Homesick ",
+        "duration": "3:01"
+      },
+      {
+        "title": "Stone Interlude ",
+        "duration": "1:48"
+      },
+      {
+        "title": "Stonedigger ",
+        "duration": "3:42"
+      },
+      {
+        "title": "Decadence ",
+        "duration": "2:44"
+      },
+      {
+        "title": "Under Every Sphere ",
+        "duration": "4:01"
+      },
+      {
+        "title": "Something Beautiful ",
+        "duration": "3:40"
+      },
+      {
+        "title": "Cliff ",
+        "duration": "3:10"
+      },
+      {
+        "title": "Uncle Bill Goes Hi-Fi ",
+        "duration": "3:21"
+      },
+      {
+        "title": "I Wonder ",
+        "duration": "3:36"
+      },
+      {
+        "title": "Outro ",
+        "duration": "1:56"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280558723,
+    "artist": "Steve Roux",
+    "title": "Steve Roux",
+    "label": "Pointblank",
+    "catno": "VPBCD 13 7 077707086802 2 2",
+    "format": "CD, Album",
+    "release_id": 23504519,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-06 00:35:43",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock",
+      "Blues",
+      "Folk, World, & Country"
+    ],
+    "style": [
+      "Soft Rock"
+    ],
+    "year": "1993",
+    "tracklist": [
+      {
+        "title": "Who Are You?",
+        "duration": "4:43"
+      },
+      {
+        "title": "No Other Way",
+        "duration": "6:40"
+      },
+      {
+        "title": "In A Spin",
+        "duration": "4:33"
+      },
+      {
+        "title": "Can't Change The Time",
+        "duration": "5:37"
+      },
+      {
+        "title": "Black Book",
+        "duration": "4:37"
+      },
+      {
+        "title": "Nowhere To Run",
+        "duration": "3:47"
+      },
+      {
+        "title": "I'll Remember You",
+        "duration": "5:01"
+      },
+      {
+        "title": "Love's No Longer There",
+        "duration": "5:50"
+      },
+      {
+        "title": "Tightrope",
+        "duration": "3:25"
+      },
+      {
+        "title": "Woman Like You",
+        "duration": "4:44"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280558999,
+    "artist": "Hamez Seba & Bayina Tribe, The",
+    "title": "Mungu Wetu",
+    "label": "Famille Bayina",
+    "catno": "FB01H3",
+    "format": "CD, Album",
+    "release_id": 12481324,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 00:37:49",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Folk, World, & Country"
+    ],
+    "style": [],
+    "year": "2003",
+    "tracklist": [
+      {
+        "title": "Mungu Wetu ",
+        "duration": "2:29"
+      },
+      {
+        "title": "Koma",
+        "duration": "2:15"
+      },
+      {
+        "title": "Sala O Zonga",
+        "duration": "4:00"
+      },
+      {
+        "title": "Adami Na Eva",
+        "duration": "5:15"
+      },
+      {
+        "title": "N'suka N'suka",
+        "duration": "1:23"
+      },
+      {
+        "title": "Dès Le Petit Matin",
+        "duration": "5:40"
+      },
+      {
+        "title": "Manianga",
+        "duration": "5:08"
+      },
+      {
+        "title": "Mokanda",
+        "duration": "1:36"
+      },
+      {
+        "title": "Sé Yawé",
+        "duration": "4:58"
+      },
+      {
+        "title": "Nziélé",
+        "duration": "7:07"
+      },
+      {
+        "title": "Lumanda",
+        "duration": "2:33"
+      },
+      {
+        "title": "Tomilénguélé",
+        "duration": "4:42"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280559470,
+    "artist": "Various",
+    "title": "Apocalypse, Livre 66, Chapitre Premier",
+    "label": "Season Of Mist",
+    "catno": "SOM 088",
+    "format": "2xCD, Comp, Enh",
+    "release_id": 3828801,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-06 00:42:07",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 170,
+    "format_quantity": 2,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Grindcore",
+      "Viking Metal",
+      "Speed Metal",
+      "Death Metal",
+      "Black Metal",
+      "Ethereal",
+      "Thrash",
+      "Doom Metal",
+      "Experimental"
+    ],
+    "year": "2004",
+    "tracklist": [
+      {
+        "title": "The Prophetess",
+        "duration": "4:59"
+      },
+      {
+        "title": "We Cry As One",
+        "duration": "6:38"
+      },
+      {
+        "title": "Butterflies And Dragons",
+        "duration": "4:07"
+      },
+      {
+        "title": "Boy In The Attic: (Radio Edit)",
+        "duration": "4:00"
+      },
+      {
+        "title": "Cosmic Orgasm",
+        "duration": "3:22"
+      },
+      {
+        "title": "Masquerade Of Sickness",
+        "duration": "4:37"
+      },
+      {
+        "title": "Idi",
+        "duration": "0:54"
+      },
+      {
+        "title": "Six Six Sixteen",
+        "duration": "2:27"
+      },
+      {
+        "title": "Weltherrschaft",
+        "duration": "4:19"
+      },
+      {
+        "title": "Skjend Hans Lik",
+        "duration": "5:07"
+      },
+      {
+        "title": "You're Dying To Be With Me",
+        "duration": "2:43"
+      },
+      {
+        "title": "Longing For Clarity",
+        "duration": "3:44"
+      },
+      {
+        "title": "You Must Fall",
+        "duration": "4:13"
+      },
+      {
+        "title": "Satanic Rituals",
+        "duration": "4:37"
+      },
+      {
+        "title": "Sluts Of Hell",
+        "duration": "3:40"
+      },
+      {
+        "title": "Fear And Apicurianism",
+        "duration": "2:57"
+      },
+      {
+        "title": "Tom Dooley",
+        "duration": "4:59"
+      },
+      {
+        "title": "Oblivion Gene",
+        "duration": "3:00"
+      },
+      {
+        "title": "The Sun Will Burn Black",
+        "duration": "4:54"
+      },
+      {
+        "title": "I Wanna Be Your Pimp (Exclusive Bonus Track)",
+        "duration": "0:56"
+      },
+      {
+        "title": "Sticky White Love Piss (Exclusive Bonus Track)",
+        "duration": "1:20"
+      },
+      {
+        "title": "Sin/Satani Loqui Cactus Sum (Exclusive Bonus Track)",
+        "duration": "5:31"
+      },
+      {
+        "title": "Barabbas",
+        "duration": "5:10"
+      },
+      {
+        "title": "Untitled (Exclusive Bonus Track)",
+        "duration": "5:00"
+      },
+      {
+        "title": "To Alcoes",
+        "duration": "6:32"
+      },
+      {
+        "title": "Daemons Journey",
+        "duration": "4:58"
+      },
+      {
+        "title": "Anno Vempyr",
+        "duration": "6:00"
+      },
+      {
+        "title": "Flavor",
+        "duration": "3:56"
+      },
+      {
+        "title": "Wicked Game",
+        "duration": "5:00"
+      },
+      {
+        "title": "It Can't Be (Video)",
+        "duration": "4:40"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280560205,
+    "artist": "Thimothey Herelle",
+    "title": "Griffe",
+    "label": "Mélodie Distribution",
+    "catno": "79578-2",
+    "format": "CD, Album",
+    "release_id": 12428613,
+    "status": "Draft",
+    "price": 9,
+    "listed": "2024-10-06 00:48:35",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Folk, World, & Country"
+    ],
+    "style": [
+      "Zouk"
+    ],
+    "year": "1993",
+    "tracklist": [
+      {
+        "title": "Concerto",
+        "duration": ""
+      },
+      {
+        "title": "Mélancolie",
+        "duration": ""
+      },
+      {
+        "title": "Fredy",
+        "duration": ""
+      },
+      {
+        "title": "Sentiment",
+        "duration": ""
+      },
+      {
+        "title": "Cé Faut Mwen",
+        "duration": ""
+      },
+      {
+        "title": "Longtemps",
+        "duration": ""
+      },
+      {
+        "title": "Carte De Crédit",
+        "duration": ""
+      },
+      {
+        "title": "Place Caquet",
+        "duration": ""
+      },
+      {
+        "title": "Ils M´ont Condamné",
+        "duration": ""
+      },
+      {
+        "title": "Ragga Danse",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280561453,
+    "artist": "Parliament",
+    "title": "Parliament",
+    "label": "Mercury, Mercury",
+    "catno": "542 382 2, 542 382-2",
+    "format": "CD, Comp",
+    "release_id": 24874766,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 00:51:44",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Funk / Soul"
+    ],
+    "style": [
+      "P.Funk",
+      "Funk",
+      "Psychedelic"
+    ],
+    "year": "2000",
+    "tracklist": [
+      {
+        "title": "P-Funk (Wants To Get Funked Up)",
+        "duration": ""
+      },
+      {
+        "title": "Tear The Roof Off The Sucker (Give Up The Funk)",
+        "duration": ""
+      },
+      {
+        "title": "Flash Light",
+        "duration": ""
+      },
+      {
+        "title": "Dr. Funkenstein",
+        "duration": ""
+      },
+      {
+        "title": "Up For The Down Stroke",
+        "duration": ""
+      },
+      {
+        "title": "Chocolate City",
+        "duration": ""
+      },
+      {
+        "title": "Bop Gun (Endangered Species)",
+        "duration": ""
+      },
+      {
+        "title": "Testify ('74 Version)",
+        "duration": ""
+      },
+      {
+        "title": "Aqua Boogie (A Psychoalaphdiscobetableaquadoloop)",
+        "duration": ""
+      },
+      {
+        "title": "Mothership Connection (Star Child)",
+        "duration": ""
+      },
+      {
+        "title": "Agony Of Defeet",
+        "duration": ""
+      },
+      {
+        "title": "Do That Stuff",
+        "duration": ""
+      },
+      {
+        "title": "Ride On",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280561618,
+    "artist": "Isis (6)",
+    "title": "Panopticon",
+    "label": "Ipecac Recordings",
+    "catno": "IPC-57",
+    "format": "CD, Album",
+    "release_id": 2510399,
+    "status": "Draft",
+    "price": 15,
+    "listed": "2024-10-06 00:53:40",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 85,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Post-Metal",
+      "Progressive Metal",
+      "Sludge Metal",
+      "Post Rock",
+      "Experimental"
+    ],
+    "year": "2004",
+    "tracklist": [
+      {
+        "title": "So Did We",
+        "duration": "7:31"
+      },
+      {
+        "title": "Backlit",
+        "duration": "7:43"
+      },
+      {
+        "title": "In Fiction",
+        "duration": "8:59"
+      },
+      {
+        "title": "Wills Dissolve",
+        "duration": "6:47"
+      },
+      {
+        "title": "Syndic Calls",
+        "duration": "9:40"
+      },
+      {
+        "title": "Altered Course",
+        "duration": "9:58"
+      },
+      {
+        "title": "Grinning Mouths",
+        "duration": "8:27"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280561846,
+    "artist": "Moho",
+    "title": "...He Visto La Cruz Al Reves",
+    "label": "Throne Records, Beat Generation",
+    "catno": "Chapter 25, BEAT 018",
+    "format": "CD, Album + DVD",
+    "release_id": 2038490,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 00:55:45",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 170,
+    "format_quantity": 2,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Sludge Metal"
+    ],
+    "year": "2006",
+    "tracklist": [
+      {
+        "title": "Semana Santa",
+        "duration": ""
+      },
+      {
+        "title": "El Duelo",
+        "duration": ""
+      },
+      {
+        "title": "Fistula",
+        "duration": ""
+      },
+      {
+        "title": "180*",
+        "duration": ""
+      },
+      {
+        "title": "Coche Funebre",
+        "duration": ""
+      },
+      {
+        "title": "Lava",
+        "duration": ""
+      },
+      {
+        "title": "Berlin",
+        "duration": ""
+      },
+      {
+        "title": "Dunkerke",
+        "duration": ""
+      },
+      {
+        "title": "Le Mans",
+        "duration": ""
+      },
+      {
+        "title": "Nantes",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280563607,
+    "artist": "Art Ensemble Of Chicago, The",
+    "title": "\"Great Black Music\" - A Jackson In Your House / Message To Our Folks",
+    "label": "BYG Records",
+    "catno": "529.204",
+    "format": "2xLP, Comp",
+    "release_id": 1117395,
+    "status": "Draft",
+    "price": 15,
+    "listed": "2024-10-06 01:08:36",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Good (G)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 460,
+    "format_quantity": 2,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Jazz"
+    ],
+    "style": [
+      "Free Jazz"
+    ],
+    "year": "1971",
+    "tracklist": [
+      {
+        "title": "A Jackson In Your House",
+        "duration": ""
+      },
+      {
+        "title": "A Jackson In Your House",
+        "duration": "5:50"
+      },
+      {
+        "title": "Get In Line",
+        "duration": "4:45"
+      },
+      {
+        "title": "The Waltz",
+        "duration": "1:15"
+      },
+      {
+        "title": "Ericka / Song For Charles",
+        "duration": "21:30"
+      },
+      {
+        "title": "Message To Our Folks",
+        "duration": ""
+      },
+      {
+        "title": "Old Time Religion",
+        "duration": "7:30"
+      },
+      {
+        "title": "Dexterity",
+        "duration": "4:00"
+      },
+      {
+        "title": "Rock Out",
+        "duration": "7:30"
+      },
+      {
+        "title": "A Brain For The Seine",
+        "duration": "22:00"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280563928,
+    "artist": "Bertrand Renaudin",
+    "title": "Ex-Voto",
+    "label": "Editions Pluriel",
+    "catno": "PL 3317",
+    "format": "LP, Album",
+    "release_id": 1882240,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 01:10:42",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good (VG)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Jazz"
+    ],
+    "style": [
+      "Jazz-Funk"
+    ],
+    "year": "1979",
+    "tracklist": [
+      {
+        "title": "Ballade Pour Eux",
+        "duration": ""
+      },
+      {
+        "title": "Rue Bel Air",
+        "duration": ""
+      },
+      {
+        "title": "Retour",
+        "duration": ""
+      },
+      {
+        "title": "Passage",
+        "duration": ""
+      },
+      {
+        "title": "Valse For Diana",
+        "duration": ""
+      },
+      {
+        "title": "S. Peanuts N°7",
+        "duration": ""
+      },
+      {
+        "title": "Convention",
+        "duration": ""
+      },
+      {
+        "title": "Gala Gadoue Gadoue Gaie",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280564351,
+    "artist": "Keith Jarrett",
+    "title": "The Survivors' Suite",
+    "label": "ECM Records, ECM Records",
+    "catno": "ECM 1085, 2301 085",
+    "format": "LP, Album",
+    "release_id": 494905,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 01:14:07",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good (VG)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Jazz"
+    ],
+    "style": [
+      "Contemporary Jazz"
+    ],
+    "year": "1977",
+    "tracklist": [
+      {
+        "title": "The Survivors' Suite (Beginning)",
+        "duration": "27:34"
+      },
+      {
+        "title": "The Survivors' Suite (Conclusion)",
+        "duration": "21:32"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280564957,
+    "artist": "Gilles Vigneault",
+    "title": "Enregistrement Public Au Théâtre Du Nouveau Monde",
+    "label": "L'Escargot",
+    "catno": "ESC 324",
+    "format": "LP, Album",
+    "release_id": 3798422,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 01:18:18",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Pop",
+      "Folk, World, & Country"
+    ],
+    "style": [
+      "Chanson"
+    ],
+    "year": "1974",
+    "tracklist": [
+      {
+        "title": "On N'a Jamais L'Hiver Qu'On Veut",
+        "duration": "3:12"
+      },
+      {
+        "title": "Beau Voyageur",
+        "duration": "3:20"
+      },
+      {
+        "title": "Quand Je Te Ferai Ta Chanson",
+        "duration": "2:27"
+      },
+      {
+        "title": "Paulu Gazette",
+        "duration": "11:44"
+      },
+      {
+        "title": "Quand Nous Partirons Pour La Louisiane",
+        "duration": "3:57"
+      },
+      {
+        "title": "Ti-Cul Lachance",
+        "duration": "3:45"
+      },
+      {
+        "title": "L’Été",
+        "duration": "1:24"
+      },
+      {
+        "title": "Lucky Too-Too",
+        "duration": "4:43"
+      },
+      {
+        "title": "La Danse A Saint-Dilon",
+        "duration": "2:35"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280570309,
+    "artist": "Bugs Bunny Et Ses Amis",
+    "title": "A La Radio",
+    "label": "Warner Bros. Records",
+    "catno": "56314",
+    "format": "LP, Album",
+    "release_id": 7670298,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 01:21:56",
+    "comments": "",
+    "media_condition": "Very Good (VG)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Children's",
+      "Stage & Screen"
+    ],
+    "style": [],
+    "year": "1976",
+    "tracklist": [
+      {
+        "title": "Quoi D'Neuf Doc ?",
+        "duration": "1:53"
+      },
+      {
+        "title": "Radio Bunny",
+        "duration": "1:22"
+      },
+      {
+        "title": "Elmer Bang Shang A Lang",
+        "duration": "2:27"
+      },
+      {
+        "title": "Elmer Boule De Billard",
+        "duration": "2:00"
+      },
+      {
+        "title": "Hoe Les Amis Hoe",
+        "duration": "2:15"
+      },
+      {
+        "title": "La Cucaracha De Speedy",
+        "duration": "1:00"
+      },
+      {
+        "title": "Elmer Fait Une Bouille Amère",
+        "duration": "1:56"
+      },
+      {
+        "title": "Bugs Bunny Et Ses Amis A La Radio",
+        "duration": "10:26"
+      },
+      {
+        "title": "L'Océan Fou",
+        "duration": "2:05"
+      },
+      {
+        "title": "Allume La Télé",
+        "duration": "2:30"
+      },
+      {
+        "title": "Le Swing De Radio Pirate",
+        "duration": "2:00"
+      },
+      {
+        "title": "Ma Gand-Mère Danse Le Reggae",
+        "duration": "2:30"
+      },
+      {
+        "title": "Speedy Gonzales Champion De Vitesse",
+        "duration": "2:00"
+      },
+      {
+        "title": "L'Anniversaire De Pétunia",
+        "duration": "2:20"
+      },
+      {
+        "title": "Bugs Bunny Et Ses Amis A La Radio (Suite)",
+        "duration": "10:08"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280574527,
+    "artist": "Fafá De Belém",
+    "title": "Sozinha",
+    "label": "Philips",
+    "catno": "834 936-1",
+    "format": "LP, Album",
+    "release_id": 3556482,
+    "status": "Draft",
+    "price": 12,
+    "listed": "2024-10-06 01:25:04",
+    "comments": "",
+    "media_condition": "Very Good Plus (VG+)",
+    "sleeve_condition": "Very Good (VG)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Latin"
+    ],
+    "style": [
+      "MPB"
+    ],
+    "year": "1988",
+    "tracklist": [
+      {
+        "title": "Meu Disfarce",
+        "duration": "4:51"
+      },
+      {
+        "title": "Gosto",
+        "duration": "4:18"
+      },
+      {
+        "title": "Te Odeio E Te Quero (Te Odio Y Te Qiero)",
+        "duration": "3:09"
+      },
+      {
+        "title": "Teu Imenso Amor (Tu Inmenso Amor) (Canción Para Susana)",
+        "duration": "4:36"
+      },
+      {
+        "title": "Anoiteceu",
+        "duration": "5:13"
+      },
+      {
+        "title": "Sozinha",
+        "duration": "4:40"
+      },
+      {
+        "title": "Frente A Frente",
+        "duration": "4:08"
+      },
+      {
+        "title": "Mentiras",
+        "duration": "4:07"
+      },
+      {
+        "title": "De Nosso Amor Tão Sincero",
+        "duration": "5:22"
+      },
+      {
+        "title": "Cadê Você (Leila XIV)",
+        "duration": "4:28"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280575271,
+    "artist": "Les Tireless",
+    "title": "Les Tireless",
+    "label": "Hit Parade",
+    "catno": "HPR 80",
+    "format": "LP, Album",
+    "release_id": 3146116,
+    "status": "Draft",
+    "price": 15,
+    "listed": "2024-10-06 01:29:35",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Very Good (VG)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Reggae",
+      "Latin",
+      "Folk, World, & Country"
+    ],
+    "style": [
+      "Beguine",
+      "Reggae"
+    ],
+    "year": "",
+    "tracklist": [
+      {
+        "title": "Embuscade",
+        "duration": ""
+      },
+      {
+        "title": "Vagabonds",
+        "duration": ""
+      },
+      {
+        "title": "Don't Worry About Me",
+        "duration": ""
+      },
+      {
+        "title": "La Martiniquaise",
+        "duration": ""
+      },
+      {
+        "title": "Retour Au Pays",
+        "duration": ""
+      },
+      {
+        "title": "Jeune Formation",
+        "duration": ""
+      },
+      {
+        "title": "Je Pense A Toi Suzelle",
+        "duration": ""
+      },
+      {
+        "title": "Martinique",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280575952,
+    "artist": "Cornelius Cardew",
+    "title": "Thälmann Variations",
+    "label": "Matchless Recordings",
+    "catno": "MR10",
+    "format": "LP, Album",
+    "release_id": 2349118,
+    "status": "Draft",
+    "price": 35,
+    "listed": "2024-10-06 01:33:14",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Classical"
+    ],
+    "style": [
+      "Political",
+      "Contemporary"
+    ],
+    "year": "1986",
+    "tracklist": [
+      {
+        "title": "Thälmann Variations",
+        "duration": ""
+      },
+      {
+        "title": "Bethanien Song",
+        "duration": ""
+      },
+      {
+        "title": "The Red Flag",
+        "duration": ""
+      },
+      {
+        "title": "Soon",
+        "duration": ""
+      },
+      {
+        "title": "Croppy Boy",
+        "duration": ""
+      },
+      {
+        "title": "Father Murphy",
+        "duration": ""
+      },
+      {
+        "title": "Four Principles On Ireland",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280576495,
+    "artist": "René Daudan",
+    "title": "Récolte 78",
+    "label": "Le Kiosque D'Orphée",
+    "catno": "KO/08.1104",
+    "format": "LP, Album, Gat",
+    "release_id": 8629191,
+    "status": "Draft",
+    "price": 24,
+    "listed": "2024-10-06 01:35:53",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Very Good Plus (VG+)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Folk, World, & Country"
+    ],
+    "style": [],
+    "year": "1978",
+    "tracklist": [
+      {
+        "title": "Tranche De Famille",
+        "duration": ""
+      },
+      {
+        "title": "Fenaison",
+        "duration": ""
+      },
+      {
+        "title": "Un Autre Jour",
+        "duration": ""
+      },
+      {
+        "title": "Ma Terre",
+        "duration": ""
+      },
+      {
+        "title": "Ce Que La Veuve Dit A Pierre",
+        "duration": ""
+      },
+      {
+        "title": "Ouvriers De La Terre",
+        "duration": ""
+      },
+      {
+        "title": "Aveugle",
+        "duration": ""
+      },
+      {
+        "title": "Mutilation",
+        "duration": ""
+      },
+      {
+        "title": "C'est Pour Mon Ami Peintre",
+        "duration": ""
+      },
+      {
+        "title": "Seatle 1854",
+        "duration": ""
+      },
+      {
+        "title": "La Pépie",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280576909,
+    "artist": "Spiritualized",
+    "title": "Tout Etait Beau",
+    "label": "Bella Union",
+    "catno": "Bella1270vfr",
+    "format": "LP, Album, Ltd",
+    "release_id": 23052176,
+    "status": "Draft",
+    "price": 25,
+    "listed": "2024-10-06 01:38:17",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Psychedelic Rock",
+      "Space Rock",
+      "Indie Rock"
+    ],
+    "year": "2022",
+    "tracklist": [
+      {
+        "title": "Toujours Ensemble Avec Toi",
+        "duration": ""
+      },
+      {
+        "title": "Meilleure Chose Que Tu N'As Jamais Eu (La Chanson En Ré)",
+        "duration": ""
+      },
+      {
+        "title": "Laisse Saigner (Pour Iggy)",
+        "duration": ""
+      },
+      {
+        "title": "Fou",
+        "duration": ""
+      },
+      {
+        "title": "La Chanson De L'Artère Principale",
+        "duration": ""
+      },
+      {
+        "title": "La Chanson En La (Allongés Dans Tes Bras)",
+        "duration": ""
+      },
+      {
+        "title": "De Retour A La Maison (Encore)",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280584298,
+    "artist": "Swans",
+    "title": "My Father Will Guide Me Up A Rope To The Sky",
+    "label": "Young God Records, Mute",
+    "catno": "YG43, STUMM362",
+    "format": "LP, Album, RE",
+    "release_id": 5492632,
+    "status": "Draft",
+    "price": 20,
+    "listed": "2024-10-06 01:40:35",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Art Rock",
+      "Avantgarde",
+      "Experimental"
+    ],
+    "year": "2014",
+    "tracklist": [
+      {
+        "title": "No Words / No Thoughts",
+        "duration": "9:23"
+      },
+      {
+        "title": "Reeling The Liars In",
+        "duration": "2:20"
+      },
+      {
+        "title": "Jim",
+        "duration": "6:44"
+      },
+      {
+        "title": "My Birth",
+        "duration": "3:51"
+      },
+      {
+        "title": "You Fucking People Make Me Sick",
+        "duration": "5:11"
+      },
+      {
+        "title": "Inside Madeline",
+        "duration": "6:33"
+      },
+      {
+        "title": "Eden Prison",
+        "duration": "6:01"
+      },
+      {
+        "title": "Little Mouth",
+        "duration": "4:12"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280591378,
+    "artist": "Can",
+    "title": "Live In Cuxhaven 1976",
+    "label": "Spoon Records, Mute",
+    "catno": "SPOON65",
+    "format": "LP, Album, Ltd, Cur",
+    "release_id": 24789881,
+    "status": "Draft",
+    "price": 25,
+    "listed": "2024-10-06 01:42:32",
+    "comments": "",
+    "media_condition": "Near Mint (NM or M-)",
+    "sleeve_condition": "Near Mint (NM or M-)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Krautrock"
+    ],
+    "year": "2022",
+    "tracklist": [
+      {
+        "title": "Cuxhaven 76 Eins",
+        "duration": ""
+      },
+      {
+        "title": "Cuxhaven 76 Zwei",
+        "duration": ""
+      },
+      {
+        "title": "Cuxhaven 76 Drei",
+        "duration": ""
+      },
+      {
+        "title": "Cuxhaven 76 Vier",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280605169,
+    "artist": "Can",
+    "title": "Tago Mago",
+    "label": "Spoon Records",
+    "catno": "XSPOON6/7",
+    "format": "2xLP, Album, RE, RM, Gat",
+    "release_id": 5789703,
+    "status": "Draft",
+    "price": 35,
+    "listed": "2024-10-06 01:45:43",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 460,
+    "format_quantity": 2,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Krautrock",
+      "Experimental",
+      "Avantgarde"
+    ],
+    "year": "2014",
+    "tracklist": [
+      {
+        "title": "Paperhouse",
+        "duration": "7:29"
+      },
+      {
+        "title": "Mushroom",
+        "duration": "4:08"
+      },
+      {
+        "title": "Oh Yeah",
+        "duration": "7:22"
+      },
+      {
+        "title": "Halleluwah",
+        "duration": "18:22"
+      },
+      {
+        "title": "Aumgn",
+        "duration": "17:22"
+      },
+      {
+        "title": "Peking O.",
+        "duration": "11:35"
+      },
+      {
+        "title": "Bring Me Coffee Or Tea",
+        "duration": "6:47"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280618744,
+    "artist": "Can",
+    "title": "Ege Bamyasi",
+    "label": "Mute, Spoon Records",
+    "catno": "XSPOON8_UK, XSPOON8",
+    "format": "LP, Album, RE, RM",
+    "release_id": 5821764,
+    "status": "Draft",
+    "price": 30,
+    "listed": "2024-10-06 01:49:00",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Krautrock"
+    ],
+    "year": "2014",
+    "tracklist": [
+      {
+        "title": "Pinch",
+        "duration": ""
+      },
+      {
+        "title": "Sing Swan Song",
+        "duration": ""
+      },
+      {
+        "title": "One More Night",
+        "duration": ""
+      },
+      {
+        "title": "Vitamin C",
+        "duration": ""
+      },
+      {
+        "title": "Soup",
+        "duration": ""
+      },
+      {
+        "title": "I'm So Green",
+        "duration": ""
+      },
+      {
+        "title": "Spoon",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280634044,
+    "artist": "NONN",
+    "title": "XVII",
+    "label": "Fuzz Club Records",
+    "catno": "FC103V12",
+    "format": "LP, Album, Ltd, Whi",
+    "release_id": 13051990,
+    "status": "Draft",
+    "price": 20,
+    "listed": "2024-10-06 01:53:30",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Electronic",
+      "Rock"
+    ],
+    "style": [
+      "Post-Punk",
+      "Darkwave"
+    ],
+    "year": "2018",
+    "tracklist": [
+      {
+        "title": "Pray",
+        "duration": "4:16"
+      },
+      {
+        "title": "Clear",
+        "duration": "3:14"
+      },
+      {
+        "title": "Home",
+        "duration": "4:12"
+      },
+      {
+        "title": "Believe",
+        "duration": "3:37"
+      },
+      {
+        "title": "When",
+        "duration": "4:25"
+      },
+      {
+        "title": "Hide",
+        "duration": "3:32"
+      },
+      {
+        "title": "Reach",
+        "duration": "3:24"
+      },
+      {
+        "title": "Beyond",
+        "duration": "3:30"
+      },
+      {
+        "title": "Past",
+        "duration": "3:16"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280640728,
+    "artist": "Gluts, The",
+    "title": "Fuzz Club Sessions",
+    "label": "Fuzz Club Records",
+    "catno": "FCS10EX",
+    "format": "12\", Ltd, S/Edition, Whi",
+    "release_id": 12814420,
+    "status": "Draft",
+    "price": 25,
+    "listed": "2024-10-06 01:55:23",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Psychedelic Rock",
+      "Noise"
+    ],
+    "year": "2018",
+    "tracklist": [
+      {
+        "title": "Ash",
+        "duration": "3:24"
+      },
+      {
+        "title": "Rag Doll",
+        "duration": "6:16"
+      },
+      {
+        "title": "Colline Bianche",
+        "duration": "5:43"
+      },
+      {
+        "title": "Ponytail",
+        "duration": "2:43"
+      },
+      {
+        "title": "Squirrel",
+        "duration": "2:23"
+      },
+      {
+        "title": "That's Me",
+        "duration": "7:43"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280652818,
+    "artist": "Dreamweapon",
+    "title": "Sol",
+    "label": "Fuzz Club Records",
+    "catno": "none",
+    "format": "LP, Album, Whi",
+    "release_id": 11713468,
+    "status": "Draft",
+    "price": 25,
+    "listed": "2024-10-06 01:59:04",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Psychedelic Rock",
+      "Krautrock",
+      "Experimental"
+    ],
+    "year": "2018",
+    "tracklist": [
+      {
+        "title": "Mashinne",
+        "duration": ""
+      },
+      {
+        "title": "Blauekirshe",
+        "duration": ""
+      },
+      {
+        "title": "Qram",
+        "duration": ""
+      },
+      {
+        "title": "Monte Da Virgem ",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280658029,
+    "artist": "You Said Strange",
+    "title": "Fuzz Club Sessions No. 13",
+    "label": "Fuzz Club Records",
+    "catno": "FCS13",
+    "format": "12\", Ltd",
+    "release_id": 13837933,
+    "status": "Draft",
+    "price": 20,
+    "listed": "2024-10-06 02:00:59",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Psychedelic Rock"
+    ],
+    "year": "2019",
+    "tracklist": [
+      {
+        "title": "Brain",
+        "duration": "7:21"
+      },
+      {
+        "title": "Cold Crusader",
+        "duration": "4:04"
+      },
+      {
+        "title": "Extend",
+        "duration": "8:01"
+      },
+      {
+        "title": "Leave The Lord",
+        "duration": "4:26"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280661872,
+    "artist": "Rev Rev Rev",
+    "title": "Kykeon",
+    "label": "Fuzz Club Records",
+    "catno": "FC112V12",
+    "format": "LP, Album, Ltd, Blo",
+    "release_id": 14196127,
+    "status": "Draft",
+    "price": 20,
+    "listed": "2024-10-06 02:02:24",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Psychedelic Rock",
+      "Shoegaze",
+      "Noise"
+    ],
+    "year": "2019",
+    "tracklist": [
+      {
+        "title": "Waiting For Gödel",
+        "duration": "5:12"
+      },
+      {
+        "title": "Clutching The Blade",
+        "duration": "4:01"
+      },
+      {
+        "title": "3 Not 3",
+        "duration": "2:51"
+      },
+      {
+        "title": "Gate Of The Dark Female",
+        "duration": "4:21"
+      },
+      {
+        "title": "One Illusion Is Very Much Like Another",
+        "duration": "3:28"
+      },
+      {
+        "title": "Egocandy",
+        "duration": "3:06"
+      },
+      {
+        "title": "Sealand",
+        "duration": "3:45"
+      },
+      {
+        "title": "Adrift In The Chaosmos",
+        "duration": "2:43"
+      },
+      {
+        "title": "Summer Clouds",
+        "duration": "4:04"
+      },
+      {
+        "title": "Cyclopes",
+        "duration": "4:15"
+      }
+    ]
+  },
+  {
+    "listing_id": 3280667521,
+    "artist": "Las Cobras",
+    "title": "Temporal",
+    "label": "Fuzz Club Records",
+    "catno": "none",
+    "format": "LP, Album, Ltd, Blu",
+    "release_id": 14722373,
+    "status": "Draft",
+    "price": 20,
+    "listed": "2024-10-06 02:04:28",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Psychedelic Rock",
+      "Garage Rock"
+    ],
+    "year": "2018",
+    "tracklist": [
+      {
+        "title": "Dark Waves",
+        "duration": ""
+      },
+      {
+        "title": "Beating Hard",
+        "duration": ""
+      },
+      {
+        "title": "The Time Has Come",
+        "duration": ""
+      },
+      {
+        "title": "Our Love Will Grow",
+        "duration": ""
+      },
+      {
+        "title": "Al Más Allá",
+        "duration": ""
+      },
+      {
+        "title": "Nothing Against You",
+        "duration": ""
+      },
+      {
+        "title": "So Much Love",
+        "duration": ""
+      },
+      {
+        "title": "Same & Again",
+        "duration": ""
+      },
+      {
+        "title": "Temporal",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280673785,
+    "artist": "Moon Duo",
+    "title": "Live At Levitation",
+    "label": "The Reverberation Appreciation Society",
+    "catno": "RVRB-054",
+    "format": "LP, Album, Club, Ltd, Whi",
+    "release_id": 25206118,
+    "status": "Draft",
+    "price": 40,
+    "listed": "2024-10-06 02:07:03",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Psychedelic Rock"
+    ],
+    "year": "2022",
+    "tracklist": [
+      {
+        "title": "Run Around",
+        "duration": ""
+      },
+      {
+        "title": "Dead West",
+        "duration": ""
+      },
+      {
+        "title": "Motorcycle, I Love You",
+        "duration": ""
+      },
+      {
+        "title": "Set It On Fire",
+        "duration": ""
+      },
+      {
+        "title": "Sleepwalker",
+        "duration": ""
+      },
+      {
+        "title": "I Been Gone",
+        "duration": ""
+      },
+      {
+        "title": "In The Sun",
+        "duration": ""
+      },
+      {
+        "title": "Goners",
+        "duration": ""
+      }
+    ]
+  },
+  {
+    "listing_id": 3280677868,
+    "artist": "Gluts, The",
+    "title": "Ungrateful Heart",
+    "label": "Fuzz Club Records",
+    "catno": "FC150",
+    "format": "LP, Album, Tra",
+    "release_id": 20559865,
+    "status": "Draft",
+    "price": 20,
+    "listed": "2024-10-06 02:14:23",
+    "comments": "",
+    "media_condition": "Mint (M)",
+    "sleeve_condition": "Mint (M)",
+    "accept_offer": "N",
+    "external_id": "",
+    "weight": 230,
+    "format_quantity": 1,
+    "location": "",
+    "quantity": 1,
+    "genre": [
+      "Rock"
+    ],
+    "style": [
+      "Psychedelic Rock",
+      "Noise"
+    ],
+    "year": "2021",
+    "tracklist": [
+      {
+        "title": "Mashilla",
+        "duration": "4:44"
+      },
+      {
+        "title": "Love Me Do Again",
+        "duration": "3:34"
+      },
+      {
+        "title": "Black Widow",
+        "duration": "4:26"
+      },
+      {
+        "title": "Breath ",
+        "duration": "5:11"
+      },
+      {
+        "title": "Leyla, Lazy Girl From The Moon ",
+        "duration": "3:28"
+      },
+      {
+        "title": "Something Surreal ",
+        "duration": "2:56"
+      },
+      {
+        "title": "Ciotola di Satana ",
+        "duration": "3:16"
+      },
+      {
+        "title": "Bye Bye Boy ",
+        "duration": "3:27"
+      },
+      {
+        "title": "FYBBD ",
+        "duration": "3:49"
+      },
+      {
+        "title": "Eat Acid See God ",
+        "duration": "7:50"
+      }
+    ]
+  }
+]

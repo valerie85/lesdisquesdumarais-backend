@@ -9,6 +9,7 @@ const uid2 = require("uid2");
 const bcrypt = require("bcrypt");
 
 router.post("/signup", (req, res) => {
+  
   if (!checkBody(req.body, ["firstname", "lastname", "password"])) {
     res.json({ result: false, error: "Missing or empty fields" });
     return;
@@ -23,7 +24,11 @@ router.post("/signup", (req, res) => {
 
       if (emailPattern.test(email)) {
         res.json({ message: "Email valide" })
+      if (emailPattern.test(email)) {
+        res.json({ message: "Email valide" })
       } else {
+        res.json({ message: "Email non valide" })
+      }
         res.json({ message: "Email non valide" })
       }
 
@@ -71,6 +76,12 @@ router.get('/', (req, res) => {
     .catch((err) => {
       res.json({ result: false, error: err.message })
     })
+    .then((data) => {
+      res.json({ result: true, users: data });
+    })
+    .catch((err) => {
+      res.json({ result: false, error: err.message })
+    })
 });
 
 //getId
@@ -95,6 +106,7 @@ router.delete('/:id', async (req, res) => {
     const userid = req.params.id
     const deleteUser = await User.findByIdAndDelete(userid)
 
+    res.json({ result: true, message: "Utilisateur supprimé avec succès" });
     res.json({ result: true, message: "Utilisateur supprimé avec succès" });
   } catch (error) {
     res.json({ result: false, message: 'Utilisateur introuvable' })

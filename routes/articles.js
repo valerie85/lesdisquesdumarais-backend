@@ -42,8 +42,16 @@ router.get('/byartist/:artist', function (req, res) {
             }
         });
 });
-
-
-
+//GET All Articles infos by genre
+router.get('/bygender/:genre', function (req, res) {
+    Article.find({ genre: { $regex: new RegExp(req.params.genre, 'i') } })
+        .then(genreData => {
+             if (genreData) {
+                res.json({ result: true, genreArticles: genreData });
+            } else {
+                res.json({ result: false, error :'Genre not found'});
+            }
+        });
+});
 
 module.exports = router;

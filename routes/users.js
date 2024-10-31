@@ -82,11 +82,10 @@ router.get('/', (req, res) => {
 //getId
 router.get('/id', async (req, res) => {
   const token = req.headers.authorization
-
   try {
-    const user = await User.findOne({ token });
+    const user = await User.findOne({ token }).populate('favorites');
     if (user) {
-      res.json({ result: true, _id: user._id, isAdmin: user.isAdmin })
+      res.json({ result: true, _id: user._id, isAdmin: user.isAdmin, favorites: user.favorites })
     } else {
       res.status(404).json({ result: false, message: 'user not found' })
     }

@@ -84,11 +84,11 @@ router.post('/:articleId/images', async (req, res) => {
 
 router.patch('/:articleId', async(req,res)=>{
     const {articleId} = req.params;
-    const {isArchived,selling_Date} = req.body;
+    const {isArchived,selling_Date,comments} = req.body;
     try {
         const updateArticle = await Article.findByIdAndUpdate(
             articleId,
-            {isArchived,selling_Date},
+            {isArchived,selling_Date,comments},
             {new:true}
         )
         if(!updateArticle){

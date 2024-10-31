@@ -23,9 +23,7 @@ router.post('/', async (req, res) => {
             articles,
             isPaid,
         });
-
         const savedOrder = await newOrder.save();
-
         //objet filtrée
         const returnOrder = {
             _id: savedOrder._id,
@@ -36,13 +34,19 @@ router.post('/', async (req, res) => {
             order_status: savedOrder.order_status,
             order_date: savedOrder.order_date,
         };
-
         res.status(200).json({ result: true, order: returnOrder })
     } catch (error) {
         res.status(500).json({ result: false, error: 'Failed to save.', details: error.message })
     }
 })
 
+router.get('/expedition', async(req,res)=>{
+    const{order_status} = req.body;
+})
+
+router.patch('/expedition', async(req,res)=>{
+    const{order_status,expedition_date,tracking_number} = req.body;
+})
 
 router.patch('/:id', async (req, res) => {
     const { expedition_date, tracking_number } = req.body;

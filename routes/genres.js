@@ -16,4 +16,17 @@ router.get('/', function (req, res) {
         });
 });
 
+/* GET genre description. */
+router.get('/:genre', function (req, res) {
+    let genreName = req.params.genre.replace(/_/g, '/');
+    Genre.findOne({ name: { $regex: new RegExp(genreName, 'i') } })
+        .then(genreData => {
+            if (genreData) {
+                res.json({ result: true, description: genreData.description });
+            } else {
+                res.json({ result: false, error :'Genre not found'});
+            }
+        });
+});
+
 module.exports = router;

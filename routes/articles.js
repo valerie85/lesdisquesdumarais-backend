@@ -36,7 +36,7 @@ router.get('/byartist/:artist', function (req, res) {
     Article.find({ artist: { $regex: new RegExp(req.params.artist, 'i') } })
         .sort({ createdAt: 'desc' })
         .then(articlesData => {
-            console.log(articlesData)
+            //console.log(articlesData);
             if (articlesData) {
                 res.json({ result: true, artistArticles: articlesData });
             } else {
@@ -50,11 +50,25 @@ router.get('/bygenre/:genre', function (req, res) {
     Article.find({ genre: { $regex: new RegExp(genreName, 'i') } })
         .sort({ createdAt: 'desc' })
         .then(genreData => {
-            console.log("genreData", genreData)
+            //console.log("genreData", genreData);
             if (genreData) {
                 res.json({ result: true, genreArticles: genreData });
             } else {
                 res.json({ result: false, error: 'Genre not found' });
+            }
+        });
+});
+
+//GET All Articles infos by keyword
+router.get('/search/:keyword', function (req, res) {
+    Article.find({ $or: [ {artist: { $regex: new RegExp(req.params.keyword, 'i') }}, {title: { $regex: new RegExp(req.params.keyword, 'i') }} ] })
+        .sort({ createdAt: 'desc' })
+        .then(searchData => {
+            //console.log("searchData", searchData);
+            if (searchData.length>0) {
+                res.json({ result: true, searchArticles: searchData });
+            } else {
+                res.json({ result: false, error: 'Article not found' });
             }
         });
 });

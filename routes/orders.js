@@ -44,7 +44,7 @@ router.get('/expedition', async (req, res) => {
     try {
         const pendingOrders = await Order.find({ order_status: "Pending" });
 
-        if (pendingOrders > 0) {
+        if (pendingOrders.length > 0) {
             res.status(200).json({ result: true, orders: pendingOrders })
         } else {
             res.status(404).json({ result: false, message: 'no orders to ship' })
@@ -54,12 +54,13 @@ router.get('/expedition', async (req, res) => {
     }
 })
 
-router.patch('/:id', async (req, res) => {
+router.patch('/:orderId', async (req, res) => {
+    const { orderId } = req.params;
     const { tracking_number, order_status } = req.body;
     try {
         const updatedOrder = await Order.findByIdAndUpdate(
-            req.params.id,
-            {order_status, expedition_date: order_status === "Shipped" ? Date.now() : null, tracking_number },
+            orderId,
+            { order_status, expedition_date: order_status === "Shipped" ? Date.now() : null, tracking_number },
             { new: true });
 
         if (updatedOrder) {

@@ -22,7 +22,7 @@ router.post('/', async (req, res) => {
             payment_media,
             articles,
             isPaid,
-        });
+        }).populate('articles');
         const savedOrder = await newOrder.save();
         //objet filtrée
         const returnOrder = {

@@ -73,6 +73,16 @@ router.get('/search/:keyword', function (req, res) {
         });
 });
 
+router.post('/favorites', async (req, res) => {
+    const articleIds = req.body.ids;
+  
+    try {
+      const articles = await Article.find({ _id: { $in: articleIds } });
+      res.json({ result: true, articles });
+    } catch (error) {
+      res.json({ result: false, error: error.message });
+    }
+  });
 
 router.post('/:articleId/images', async (req, res) => {
     const { articleId } = req.params;

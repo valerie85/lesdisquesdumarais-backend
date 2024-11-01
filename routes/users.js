@@ -51,10 +51,12 @@ router.post("/signin", (req, res) => {
   }
 
   User.findOne({ email: req.body.email }).then((data) => {
-    if (data.isBan) {
-      res.json({ result: false, error: "Utilisateur banni" });
-      return;
-    }
+
+     if (data.isBan) {
+       res.json({ result: false, error: "Utilisateur banni" });
+       return;
+     }
+
     if (data && bcrypt.compareSync(req.body.password, data.password)) {
       res.json({ result: true, token: data.token, firstName: data.firstname, email: data.email, message: "L'utilisateur est bien connecté" });
     } else {

@@ -4,7 +4,7 @@ const adresseSchema = new mongoose.Schema({
     line1: { type: String },
     line2: { type: String },
     line3: { type: String },
-    zip_code: { type: Number },
+    zip_code: { type: String },
     city: { type: String },
     country: { type: String },
     infos: { type: String },

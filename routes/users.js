@@ -51,7 +51,11 @@ router.post("/signin", (req, res) => {
   }
 
   User.findOne({ email: req.body.email }).then((data) => {
-
+    if (!data) {
+      res.json({ result: false, error: "Identifiant ou mot de passe introuvable",});
+      return;
+    }
+    
      if (data.isBan) {
        res.json({ result: false, error: "Utilisateur banni" });
        return;

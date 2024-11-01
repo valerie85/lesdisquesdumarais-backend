@@ -9,40 +9,54 @@ const uid2 = require("uid2");
 const bcrypt = require("bcrypt");
 
 router.post("/signup", (req, res) => {
-  
-  if (!checkBody(req.body, ["firstName","lastName", "password"])) {
+  // Vérification des champs requis
+  if (!checkBody(req.body, ["firstName", "lastName", "email", "password"])) {
     res.json({ result: false, error: "Missing or empty fields" });
     return;
   }
 
-  User.findOne({ firstname: req.body.firstName, lastname: req.body.lastName, email: req.body.email }).then((data) => {
-    if (data === null) {
-      const hash = bcrypt.hashSync(req.body.password, 10);
-      const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$/
+  const { firstName, lastName, email, password } = req.body;
 
-      const email = req.body.email
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-      if(emailPattern.test(email)) {
-        console.log({ message: "Email valide"})
+  if (!emailPattern.test(email)) {
+    res.json({ result: false, error: "Le format de l'email n'est pas valide" });
+    return; 
+  }
+
+  // Vérification de l'existence de l'utilisateur dans la base de données
+  User.findOne({ email: email })
+    .then((existingUser) => {
+      if (existingUser) {
+        res.json({ result: false, error: "L'email de l'utilisateur existe déjà" });
       } else {
-        console.log({ message: "Email non valide"})
-      } 
-      const newUser = new User({
-        firstname: req.body.firstName,
-        lastname: req.body.lastName,
-        email: req.body.email,
-        password: hash,
-        token: uid2(32),
-      });
 
-      newUser.save().then((newDoc) => {
-        res.json({ result: true, token: newDoc.token, email: newDoc.email });
-      });
-    } else {
-      res.json({ result: false, error: "Cet utilisateur existe déjà" });
-    }
-  });
+        const hash = bcrypt.hashSync(password, 10);
+
+        const newUser = new User({
+          firstname: firstName,
+          lastname: lastName,
+          email: email,
+          password: hash,
+          token: uid2(32),
+        });
+
+        newUser.save()
+          .then((newDoc) => {
+            res.json({ result: true, token: newDoc.token, email: newDoc.email });
+          })
+          .catch((error) => {
+            console.log("Erreur dans l'inscription de l'utilisateur", error);
+            res.json({ result: false, error: "Erreur lors de l'inscription" });
+          });
+      }
+    })
+    .catch((error) => {
+      console.log("Problème sur la recherche de l'utilisateur en base de données", error);
+      res.json({ result: false, error: "Erreur lors de la vérification de l'email" });
+    });
 });
+
 
 router.post("/signin", (req, res) => {
   if (!checkBody(req.body, ["email", "password"])) {

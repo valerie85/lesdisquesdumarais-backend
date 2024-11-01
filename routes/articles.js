@@ -8,6 +8,7 @@ const Article = require('../models/articles');
 router.get('/', function (req, res) {
     Article.find()
         .populate('tracklist')
+        .sort({ createdAt: 'desc' })
         .then(articlesData => {
             if (articlesData) {
                 res.json({ result: true, allArticles: articlesData });
@@ -33,8 +34,9 @@ router.get('/byrelease/:release_id', function (req, res) {
 //GET All Articles infos by artist
 router.get('/byartist/:artist', function (req, res) {
     Article.find({ artist: { $regex: new RegExp(req.params.artist, 'i') } })
+        .sort({ createdAt: 'desc' })
         .then(articlesData => {
-            console.log(articlesData)
+            //console.log(articlesData);
             if (articlesData) {
                 res.json({ result: true, artistArticles: articlesData });
             } else {
@@ -43,13 +45,30 @@ router.get('/byartist/:artist', function (req, res) {
         });
 });
 //GET All Articles infos by genre
-router.get('/bygender/:genre', function (req, res) {
-    Article.find({ genre: { $regex: new RegExp(req.params.genre, 'i') } })
+router.get('/bygenre/:genre', function (req, res) {
+    let genreName = req.params.genre.replace(/_/g, '/');
+    Article.find({ genre: { $regex: new RegExp(genreName, 'i') } })
+        .sort({ createdAt: 'desc' })
         .then(genreData => {
+            //console.log("genreData", genreData);
             if (genreData) {
                 res.json({ result: true, genreArticles: genreData });
             } else {
                 res.json({ result: false, error: 'Genre not found' });
+            }
+        });
+});
+
+//GET All Articles infos by keyword
+router.get('/search/:keyword', function (req, res) {
+    Article.find({ $or: [ {artist: { $regex: new RegExp(req.params.keyword, 'i') }}, {title: { $regex: new RegExp(req.params.keyword, 'i') }} ] })
+        .sort({ createdAt: 'desc' })
+        .then(searchData => {
+            //console.log("searchData", searchData);
+            if (searchData.length>0) {
+                res.json({ result: true, searchArticles: searchData });
+            } else {
+                res.json({ result: false, error: 'Article not found' });
             }
         });
 });
@@ -75,5 +94,25 @@ router.post('/:articleId/images', async (req, res) => {
         res.status(500).json({ result: false, message: "Erreur lors de l'ajout de l'image", details: error.message })
     }
 })
+
+
+router.patch('/:articleId', async(req,res)=>{
+    const {articleId} = req.params;
+    const {isArchived,selling_Date,comments} = req.body;
+    try {
+        const updateArticle = await Article.findByIdAndUpdate(
+            articleId,
+            {isArchived,selling_Date,comments},
+            {new:true}
+        )
+        if(!updateArticle){
+            return res.status(404).json({result: false, message:'article non trouver'})
+        }
+        res.status(200).json({result: false, message:'Article mis à jour avec succes'})
+    } catch (error) {
+        res.status(500).json({result: false, message:"Erreur lors de l'update de l'article", details:error.message})
+    }
+})
+
 
 module.exports = router;

@@ -154,6 +154,32 @@ router.put('/like', (req, res) => {
   });
 });
 
+router.put('/adresses/:token', async(req,res)=>{
+    User.findOne({ token: req.params.token }).then(user => {
+    if (user === null) {
+      res.json({ result: false, error: 'User not found' });
+      return;
+    } else {
+      console.log(req.body);
+      const newAddress ={
+        line1: req.body.formState.line1,
+        line2: req.body.formState.line2,
+        line3: req.body.formState.line3,
+        zip_code: req.body.formState.zip_code,
+        city: req.body.formState.city,
+        country: req.body.formState.country,
+        infos: req.body.formState.infos,
+      };
+      console.log(newAddress);
+      if (!user.adresses.includes(newAddress)) { // User not already saved the address
+        User.updateOne({ token: req.params.token }, { $push: { adresses: newAddress} }) 
+          .then((addressData) => {
+                  res.json({result: true, message:'Adresse enregistrée avec succes'})
+                 })
+          }
+        }
+    });    
+});
 
 module.exports = router;
 

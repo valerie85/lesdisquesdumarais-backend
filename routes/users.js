@@ -20,7 +20,7 @@ router.post("/signup", (req, res) => {
   const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
   if (!emailPattern.test(email)) {
-    res.json({ result: false, error: "Le format de l'email n'est pas valide" });
+    res.json({ result: false, error: "Le format de l'email est invalide" });
     return; 
   }
 
@@ -28,7 +28,7 @@ router.post("/signup", (req, res) => {
   User.findOne({ email: email })
     .then((existingUser) => {
       if (existingUser) {
-        res.json({ result: false, error: "L'email de l'utilisateur existe déjà" });
+        res.json({ result: false, error: "Cet email existe déjà" });
       } else {
 
         const hash = bcrypt.hashSync(password, 10);

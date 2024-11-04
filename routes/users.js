@@ -7,6 +7,18 @@ const Article = require('../models/articles');
 const { checkBody } = require("../modules/checkBody");
 const uid2 = require("uid2");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const nodemailer = require('nodemailer'); // Pour l'envoi d'e-mails
+
+
+// Configurer le transporteur d'e-mails pour Nodemailer
+const transporter = nodemailer.createTransport({
+  service: 'gmail', // Ou un autre service SMTP
+  auth: {
+    user: process.env.EMAIL_USER, // Utiliser des variables d'environnement pour la sécurité
+    pass: process.env.EMAIL_PASS,
+  },
+});
 
 router.post("/signup", (req, res) => {
   
@@ -94,11 +106,27 @@ router.get('/id', async (req, res) => {
   const token = req.headers.authorization
   try {
     const user = await User.findOne({ token }).populate('favorites');
+
     if (user) {
-      res.json({ result: true, _id: user._id, isAdmin: user.isAdmin, favorites: user.favorites })
+      const userResponse = {
+        result: true,
+        _id: user._id,
+        isAdmin: user.isAdmin,
+        favorites: user.favorites,
+        firstName: user.firstname,
+        lastName: user.lastname,
+        email: user.email,
+        addresses: user.adresses
+      };
+
+      // Ajout d'un console.log pour vérifier les données renvoyées
+      console.log("Données utilisateur renvoyées :", userResponse);
+
+      res.json(userResponse);
     } else {
-      res.status(404).json({ result: false, message: 'user not found' })
-    }
+      res.status(404).json({ result: false, message: 'Utilisateur non trouvé' });
+    }  
+
   } catch (error) {
     res.status(500).json({ result: false, message: 'Error server', details: error.message })
   }
@@ -187,6 +215,76 @@ router.put('/adresses/:token', async(req,res)=>{
     });    
 });
 
+// Route pour demander la réinitialisation du mot de passe
+router.post('/forgot-password', async (req, res) => {
+  const { email } = req.body;
+
+  try {
+    // Vérifier si l'utilisateur existe
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(404).json({ message: 'Utilisateur non trouvé' });
+    }
+
+    // Créer un token de réinitialisation
+    const resetToken = uid2(32);
+    user.resetToken = resetToken;
+    user.resetTokenExpiration = Date.now() + 3600000; 
+    await user.save();
+    console.log("Token de réinitialisation généré :", resetToken);
+
+    // Envoi de l'e-mail de réinitialisation
+    const resetUrl = `http://localhost:3001/reset-password?token=${resetToken}`;
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: email,
+      subject: 'Réinitialisation de mot de passe',
+      html: `<p>Pour réinitialiser votre mot de passe, veuillez cliquer sur le lien suivant : <a href="${resetUrl}">${resetUrl}</a></p>`,
+    };
+
+    transporter.sendMail(mailOptions, (error, info) => {
+      if (error) {
+        console.error("Erreur d'envoi d'email:", error);
+        return res.status(500).json({ message: "Erreur lors de l'envoi de l'email" });
+      }
+      res.json({ success: true, message: "Un e-mail de réinitialisation a été envoyé." });
+    });
+  } catch (error) {
+    console.error("Erreur dans la route forgot-password:", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+// Route pour réinitialiser le mot de passe avec le token
+router.post('/reset-password', async (req, res) => {
+  const { token, newPassword } = req.body;
+
+
+  if (!token || !newPassword) {
+    return res.status(400).json({ message: "Token et nouveau mot de passe sont requis." });
+  }
+
+  try {
+    
+    const user = await User.findOne({ resetToken: token, resetTokenExpiration: { $gt: Date.now() } });
+    if (!user) {
+      return res.status(400).json({ error: 'Token de réinitialisation invalide ou expiré' });
+    }
+
+    
+    const hash = bcrypt.hashSync(newPassword, 10);
+    user.password = hash;
+    user.resetToken = undefined; // Supprimer le token de réinitialisation
+    user.resetTokenExpiration = undefined;
+    await user.save();
+
+    
+    res.json({ message: 'Mot de passe réinitialisé avec succès' });
+  } catch (error) {
+    console.error("Erreur dans la route reset-password:", error);
+    res.status(500).json({ message: "Erreur serveur" });
+  }
+});
+
+
 module.exports = router;
-
-

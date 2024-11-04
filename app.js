@@ -23,11 +23,11 @@ app.use(helmet());
 // protege contre les attaque de xss (injection de script)
 app.use(xssClean());
 // limitateur de requete par ip configure a 100 requete pour 10 minute
-app.use(rateLimit({
-    windowMs: 10 * 60 * 1000,  // 10 minute
-    max: 100,  //limite de 100
-    message: 'Trop de requêtes, veuillez réessayer plus tard.'
-  }));
+// app.use(rateLimit({
+//     windowMs: 10 * 60 * 1000,  // 10 minute
+//     max: 100,  //limite de 100
+//     message: 'Trop de requêtes, veuillez réessayer plus tard.'
+//   }));
   //protege contre les injections MongoDB en supprimant les caractères spéciaux comme $ et .
 app.use(mongoSanitize());
 app.use(logger('dev'));

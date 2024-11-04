@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 const shipmentSchema = new mongoose.Schema({
     shipment_operator: { type: String, required: true },
     continent: { type: String, required: true },
@@ -24,6 +23,7 @@ const shipmentSchema = new mongoose.Schema({
     },
 
 });
+
 
 const Shipment = mongoose.model('shipments', shipmentSchema);
 

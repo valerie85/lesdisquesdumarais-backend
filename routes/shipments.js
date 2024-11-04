@@ -29,20 +29,16 @@ router.get('/shipmentByOperator/:shipment_Operator', function (req, res) {
 });
 
 //POST shipment by Operator for initialization //
-router.post('/', function (req, res) {
-   
-    const newShipment = new Shipment({
-        shipment_operator: req.body.shipment_operator,
-        continent: req.body.continent,
-        country: req.body.country,
-        shipment_price_LP: req.body.shipment_price_LP,
-        shipment_price_otherFormats: req.body.shipment_price_otherFormats,
-    });
-    newShipment.save().then((shipmentData) => {
-        res.json({ result: true, shipmentData: shipmentData });
-    });
+router.post('/', async (req, res) => {
+    try {
+        const shipmentData = req.body;
+        const newShipment = new Shipment(shipmentData);
+        const savedShipment = await newShipment.save();
+
+        res.status(200).json(savedShipment);
+    } catch (error) {
+        res.status(400).json({ result: false, message: "fail to requete", details: error.message });
+    }
 });
-
-
 
 module.exports = router; 

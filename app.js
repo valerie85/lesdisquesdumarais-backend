@@ -12,6 +12,7 @@ var usersRouter = require('./routes/users');
 var articlesRouter=require('./routes/articles');
 var ordersRouter=require('./routes/orders');
 var genresRouter=require('./routes/genres');
+var shipmentsRouter=require('./routes/shipments');
 
 //appel middlewares
 var app = express();
@@ -42,5 +43,6 @@ app.use('/users', usersRouter);
 app.use('/articles', articlesRouter);
 app.use('/orders', ordersRouter);
 app.use('/genres', genresRouter);
+app.use('/shipments', shipmentsRouter);
 
 module.exports = app;

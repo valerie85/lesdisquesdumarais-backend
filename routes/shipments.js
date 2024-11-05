@@ -17,8 +17,8 @@ router.get('/', function (req, res) {
 });
 
 // GET Shipment by Operator//
-router.get('/shipmentByOperatorandCountry', (req, res)=> {
-    Shipment.find({shipment_operator: req.body.shipment_operator, shipment_country : req.body.shipment_country})
+router.get('/shipmentByOperator/:shipment_operator', (req, res)=> {
+    Shipment.find({shipment_operator: req.params.shipment_operator})
         .then(shipmentData => {
             if (shipmentData) {
                 res.json({ result: true, allShipments: shipmentData });

@@ -166,7 +166,6 @@ router.put('/adresses/:token', async(req,res)=>{
       res.json({ result: false, error: 'User not found' });
       return;
     } else {
-      console.log(req.body);
       const newAddress ={
         line1: req.body.formState.line1,
         line2: req.body.formState.line2,
@@ -176,7 +175,6 @@ router.put('/adresses/:token', async(req,res)=>{
         country: req.body.formState.country,
         infos: req.body.formState.infos,
       };
-      console.log(newAddress);
       if (!user.adresses.includes(newAddress)) { // User not already saved the address
         User.updateOne({ token: req.params.token }, { $push: { adresses: newAddress} }) 
           .then((addressData) => {

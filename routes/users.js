@@ -118,10 +118,6 @@ router.get('/id', async (req, res) => {
         email: user.email,
         addresses: user.adresses
       };
-
-      // Ajout d'un console.log pour vérifier les données renvoyées
-      console.log("Données utilisateur renvoyées :", userResponse);
-
       res.json(userResponse);
     } else {
       res.status(404).json({ result: false, message: 'Utilisateur non trouvé' });
@@ -194,6 +190,7 @@ router.put('/adresses/:token', async(req,res)=>{
       res.json({ result: false, error: 'User not found' });
       return;
     } else {
+
       const newAddress ={
         line1: req.body.formState.line1,
         line2: req.body.formState.line2,

@@ -200,7 +200,6 @@ router.put('/adresses/:token', async(req,res)=>{
         country: req.body.formState.country,
         infos: req.body.formState.infos,
       };
-      console.log(newAddress);
       if (!user.adresses.includes(newAddress)) { // User not already saved the address
         User.updateOne({ token: req.params.token }, { $push: { adresses: newAddress} }) 
           .then((addressData) => {

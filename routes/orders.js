@@ -6,6 +6,7 @@ const Order = require('../models/orders');
 //Route pour une nouvelle commande
 
 router.post('/', async (req, res) => {
+    console.log(req.body);
     //recup des données
     const {
         user, total, shipment_operator,
@@ -22,7 +23,7 @@ router.post('/', async (req, res) => {
             payment_media,
             articles,
             isPaid,
-        }).populate('articles');
+        });
         const savedOrder = await newOrder.save();
         //objet filtrée
         const returnOrder = {

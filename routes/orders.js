@@ -25,15 +25,16 @@ router.post('/', async (req, res) => {
             isPaid,
         });
         const savedOrder = await newOrder.save();
+        const populatedOrder = await savedOrder.populate('articles');
         //objet filtrée
         const returnOrder = {
-            _id: savedOrder._id,
-            user: savedOrder.user,
-            shipment_price: savedOrder.shipment_price,
-            payment_media: savedOrder.payment_media,
-            total: savedOrder.total,
-            order_status: savedOrder.order_status,
-            order_date: savedOrder.order_date,
+            _id: populatedOrder._id,
+            user: populatedOrder.user,
+            shipment_price: populatedOrder.shipment_price,
+            payment_media: populatedOrder.payment_media,
+            total: populatedOrder.total,
+            order_status: populatedOrder.order_status,
+            order_date: populatedOrder.order_date,
         };
         res.status(200).json({ result: true, order: returnOrder })
     } catch (error) {

@@ -21,6 +21,8 @@ const userSchema = new mongoose.Schema({
     inscription_date: { type: Date, default: Date.now },
     favorites: [{ type: mongoose.Schema.Types.ObjectId, ref: 'articles' }],
     adresses: [adresseSchema],
+    resetToken: { type: String }, 
+    resetTokenExpiration: { type: Date }
 });
 
 const User = mongoose.model('users', userSchema);

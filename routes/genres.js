@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 require('../models/genres');
 const Genre = require('../models/genres');
 
-/* GET genres listing. */
+/* GET genres listing. */ 
 router.get('/', function (req, res) {
     Genre.find()
         .then(genresData => {

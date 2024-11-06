@@ -210,6 +210,44 @@ router.put('/adresses/:token', async(req,res)=>{
     });    
 });
 
+router.delete('/delete-address', async (req, res) => {
+  try {
+    const { userId, addressIndex } = req.body;
+
+    if (!userId || addressIndex === undefined) {
+      return res.status(400).json({ 
+        result: false, 
+        message: "L'ID de l'utilisateur et l'index de l'adresse sont requis." 
+      });
+    }
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ 
+        result: false, 
+        message: "Utilisateur non trouvé." 
+      });
+    }
+
+    // Supprimer l'adresse à l'index spécifié
+    user.adresses.splice(addressIndex, 1);
+    await user.save();
+
+    res.json({ 
+      result: true, 
+      message: "Adresse supprimée avec succès",
+      user 
+    });
+  } catch (error) {
+    console.error("Erreur lors de la suppression de l'adresse:", error);
+    res.status(500).json({ 
+      result: false, 
+      message: "Erreur serveur lors de la suppression de l'adresse." 
+    });
+  }
+});
+
+
 
 // Route pour modifier les données de l'utilisateur
 router.patch('/update-user', async (req, res) => {
@@ -328,7 +366,6 @@ router.post('/forgot-password', async (req, res) => {
 // Route pour réinitialiser le mot de passe avec le token
 router.post('/reset-password', async (req, res) => {
   const { token, newPassword } = req.body;
-
 
   if (!token || !newPassword) {
     return res.status(400).json({ message: "Token et nouveau mot de passe sont requis." });

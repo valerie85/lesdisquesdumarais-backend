@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 require('../models/connection');
 const Article = require('../models/articles');
 
-/* GET articles listing. */
+/* GET articles listing. */  
 router.get('/', function (req, res) {
     Article.find()
         .populate('tracklist')

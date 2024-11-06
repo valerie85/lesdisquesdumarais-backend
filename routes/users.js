@@ -210,6 +210,81 @@ router.put('/adresses/:token', async(req,res)=>{
     });    
 });
 
+
+// Route pour modifier les données de l'utilisateur
+router.patch('/update-user', async (req, res) => {
+  try {
+    const { userId, firstName, lastName, email, addresses } = req.body;
+
+    if (!userId) {
+      return res.status(400).json({ result: false, message: "L'ID de l'utilisateur est requis." });
+    }
+
+    const updateFields = {};
+    if (firstName) updateFields.firstname = firstName;
+    if (lastName) updateFields.lastname = lastName;
+    if (email) updateFields.email = email;
+
+    // Si des adresses sont fournies, ajoute-les au champ 'addresses'
+    if (addresses && Array.isArray(addresses)) {
+      updateFields.addresses = addresses.map(address => ({
+        line1: address.line1,
+        line2: address.line2,
+        line3: address.line3,
+        zip_code: address.zip_code,
+        city: address.city,
+        country: address.country,
+        infos: address.infos,
+      }));
+    }
+
+    // Utilise findByIdAndUpdate pour mettre à jour l'utilisateur
+    const user = await User.findByIdAndUpdate(userId, updateFields, { new: true });
+
+    if (!user) {
+      return res.status(404).json({ result: false, message: "Utilisateur non trouvé." });
+    }
+
+    res.json({ result: true, message: "Informations mises à jour avec succès", user });
+  } catch (error) {
+    console.error("Erreur lors de la mise à jour de l'utilisateur:", error);
+    res.status(500).json({ result: false, message: "Erreur serveur lors de la mise à jour de l'utilisateur." });
+  }
+});
+
+
+router.patch('/update-addresses', async (req, res) => {
+  try {
+    const { userId, addressIndex, address } = req.body;
+
+    if (!userId || addressIndex === undefined || !address) {
+      return res.status(400).json({ result: false, message: "L'ID de l'utilisateur, l'index de l'adresse, et les informations de l'adresse sont requis." });
+    }
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ result: false, message: "Utilisateur non trouvé." });
+    }
+
+    if (!user.adresses || user.adresses.length <= addressIndex) {
+      return res.status(400).json({ result: false, message: "Adresse non trouvée à cet index." });
+    }
+
+    user.adresses[addressIndex] = {
+      ...user.adresses[addressIndex],
+      ...address
+    };
+
+    await user.save();
+
+    res.json({ result: true, message: "Adresse mise à jour avec succès", user });
+  } catch (error) {
+    console.error("Erreur lors de la mise à jour de l'adresse:", error);
+    res.status(500).json({ result: false, message: "Erreur serveur lors de la mise à jour de l'adresse." });
+  }
+});
+
+
 // Route pour demander la réinitialisation du mot de passe
 router.post('/forgot-password', async (req, res) => {
   const { email } = req.body;

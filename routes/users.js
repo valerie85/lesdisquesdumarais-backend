@@ -374,7 +374,7 @@ router.post('/forgot-password', async (req, res) => {
     console.log("Token de réinitialisation généré :", resetToken);
 
     // Envoi de l'e-mail de réinitialisation
-    const resetUrl = `http://localhost:3001/reset-password?token=${resetToken}`;
+    const resetUrl = `https://lesdisquesdumarais-frontend.vercel.app/reset-password?token=${resetToken}`;
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: email,

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+ 
 
 //modifié et complété pour genre, style et tracklist sur les formats reçus +qq pb de syntaxe
 const articleSchema = new mongoose.Schema({

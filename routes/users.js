@@ -128,6 +128,74 @@ router.get('/id', async (req, res) => {
   }
 })
 
+
+// Route pour supprimer une adresse
+router.delete('/delete-address', async (req, res) => {
+  try {
+    const { userId, addressIndex } = req.body;
+    
+    console.log("Données reçues:", { userId, addressIndex });
+
+    // Validation des entrées
+    if (!userId || addressIndex === undefined) {
+      return res.status(400).json({ 
+        result: false, 
+        message: "L'ID de l'utilisateur et l'index de l'adresse sont requis." 
+      });
+    }
+
+    const user = await User.findById(userId.toString());
+
+    console.log("Utilisateur trouvé:", user ? "Oui" : "Non");
+
+    if (!user) {
+      return res.status(404).json({ 
+        result: false, 
+        message: "Utilisateur non trouvé." 
+      });
+    }
+
+    // Vérification de l'existence des adresses
+    if (!Array.isArray(user.adresses)) {
+      return res.status(400).json({ 
+        result: false, 
+        message: "Le tableau d'adresses n'existe pas." 
+      });
+    }
+
+    console.log("Nombre d'adresses:", user.adresses.length);
+    console.log("Index à supprimer:", addressIndex);
+
+    // Vérification de l'index
+    if (addressIndex < 0 || addressIndex >= user.adresses.length) {
+      return res.status(400).json({ 
+        result: false, 
+        message: "Index d'adresse invalide." 
+      });
+    }
+
+    // Suppression de l'adresse
+    user.adresses.splice(addressIndex, 1);
+    
+    // Sauvegarde des modifications
+    const savedUser = await user.save();
+    console.log("Sauvegarde réussie, nouvelles adresses:", savedUser.adresses.length);
+
+    res.json({ 
+      result: true, 
+      message: "Adresse supprimée avec succès",
+      user: savedUser 
+    });
+  } catch (error) {
+    console.error("Erreur complète lors de la suppression:", error);
+    res.status(500).json({ 
+      result: false, 
+      message: "Erreur serveur lors de la suppression de l'adresse.",
+      error: error.message 
+    });
+  }
+});
+
 // Route pour supprimer un utilisateur
 router.delete('/:id', async (req, res) => {
   try {
@@ -210,42 +278,6 @@ router.put('/adresses/:token', async(req,res)=>{
     });    
 });
 
-router.delete('/delete-address', async (req, res) => {
-  try {
-    const { userId, addressIndex } = req.body;
-
-    if (!userId || addressIndex === undefined) {
-      return res.status(400).json({ 
-        result: false, 
-        message: "L'ID de l'utilisateur et l'index de l'adresse sont requis." 
-      });
-    }
-
-    const user = await User.findById(userId);
-    if (!user) {
-      return res.status(404).json({ 
-        result: false, 
-        message: "Utilisateur non trouvé." 
-      });
-    }
-
-    // Supprimer l'adresse à l'index spécifié
-    user.adresses.splice(addressIndex, 1);
-    await user.save();
-
-    res.json({ 
-      result: true, 
-      message: "Adresse supprimée avec succès",
-      user 
-    });
-  } catch (error) {
-    console.error("Erreur lors de la suppression de l'adresse:", error);
-    res.status(500).json({ 
-      result: false, 
-      message: "Erreur serveur lors de la suppression de l'adresse." 
-    });
-  }
-});
 
 
 

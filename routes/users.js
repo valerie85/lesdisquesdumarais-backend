@@ -21,8 +21,8 @@ const transporter = nodemailer.createTransport({
 });
 
 router.post("/signup", (req, res) => {
-  
-  if (!checkBody(req.body, ["firstName","lastName", "password"])) {
+
+  if (!checkBody(req.body, ["firstName", "lastName", "password"])) {
     res.json({ result: false, error: "Missing or empty fields" });
     return;
   }
@@ -34,11 +34,11 @@ router.post("/signup", (req, res) => {
 
       const email = req.body.email
 
-      if(emailPattern.test(email)) {
-        console.log({ message: "Email valide"})
+      if (emailPattern.test(email)) {
+        console.log({ message: "Email valide" })
       } else {
-        console.log({ message: "Email non valide"})
-      } 
+        console.log({ message: "Email non valide" })
+      }
       const newUser = new User({
         firstname: req.body.firstName,
         lastname: req.body.lastName,
@@ -64,14 +64,14 @@ router.post("/signin", (req, res) => {
 
   User.findOne({ email: req.body.email }).then((data) => {
     if (!data) {
-      res.json({ result: false, error: "Identifiant ou mot de passe introuvable",});
+      res.json({ result: false, error: "Identifiant ou mot de passe introuvable", });
       return;
     }
-    
-     if (data.isBan) {
-       res.json({ result: false, error: "Utilisateur banni" });
-       return;
-     }
+
+    if (data.isBan) {
+      res.json({ result: false, error: "Utilisateur banni" });
+      return;
+    }
 
     if (data && bcrypt.compareSync(req.body.password, data.password)) {
       res.json({ result: true, token: data.token, firstName: data.firstname, email: data.email, message: "L'utilisateur est bien connecté" });
@@ -121,7 +121,7 @@ router.get('/id', async (req, res) => {
       res.json(userResponse);
     } else {
       res.status(404).json({ result: false, message: 'Utilisateur non trouvé' });
-    }  
+    }
 
   } catch (error) {
     res.status(500).json({ result: false, message: 'Error server', details: error.message })
@@ -133,14 +133,14 @@ router.get('/id', async (req, res) => {
 router.delete('/delete-address', async (req, res) => {
   try {
     const { userId, addressIndex } = req.body;
-    
+
     console.log("Données reçues:", { userId, addressIndex });
 
     // Validation des entrées
     if (!userId || addressIndex === undefined) {
-      return res.status(400).json({ 
-        result: false, 
-        message: "L'ID de l'utilisateur et l'index de l'adresse sont requis." 
+      return res.status(400).json({
+        result: false,
+        message: "L'ID de l'utilisateur et l'index de l'adresse sont requis."
       });
     }
 
@@ -149,17 +149,17 @@ router.delete('/delete-address', async (req, res) => {
     console.log("Utilisateur trouvé:", user ? "Oui" : "Non");
 
     if (!user) {
-      return res.status(404).json({ 
-        result: false, 
-        message: "Utilisateur non trouvé." 
+      return res.status(404).json({
+        result: false,
+        message: "Utilisateur non trouvé."
       });
     }
 
     // Vérification de l'existence des adresses
     if (!Array.isArray(user.adresses)) {
-      return res.status(400).json({ 
-        result: false, 
-        message: "Le tableau d'adresses n'existe pas." 
+      return res.status(400).json({
+        result: false,
+        message: "Le tableau d'adresses n'existe pas."
       });
     }
 
@@ -168,30 +168,30 @@ router.delete('/delete-address', async (req, res) => {
 
     // Vérification de l'index
     if (addressIndex < 0 || addressIndex >= user.adresses.length) {
-      return res.status(400).json({ 
-        result: false, 
-        message: "Index d'adresse invalide." 
+      return res.status(400).json({
+        result: false,
+        message: "Index d'adresse invalide."
       });
     }
 
     // Suppression de l'adresse
     user.adresses.splice(addressIndex, 1);
-    
+
     // Sauvegarde des modifications
     const savedUser = await user.save();
     console.log("Sauvegarde réussie, nouvelles adresses:", savedUser.adresses.length);
 
-    res.json({ 
-      result: true, 
+    res.json({
+      result: true,
       message: "Adresse supprimée avec succès",
-      user: savedUser 
+      user: savedUser
     });
   } catch (error) {
     console.error("Erreur complète lors de la suppression:", error);
-    res.status(500).json({ 
-      result: false, 
+    res.status(500).json({
+      result: false,
       message: "Erreur serveur lors de la suppression de l'adresse.",
-      error: error.message 
+      error: error.message
     });
   }
 });
@@ -243,7 +243,7 @@ router.put('/like', (req, res) => {
             res.json({ result: true, message: 'favorite removed' });
           });
       } else { // User has not liked the article
-        User.updateOne({ token: req.body.token }, { $push: { favorites :req.body.articleId} }) // Add article ID to likes
+        User.updateOne({ token: req.body.token }, { $push: { favorites: req.body.articleId } }) // Add article ID to likes
           .then(() => {
             res.json({ result: true, message: 'favorite added' });
           });
@@ -252,14 +252,14 @@ router.put('/like', (req, res) => {
   });
 });
 
-router.put('/adresses/:token', async(req,res)=>{
-    User.findOne({ token: req.params.token }).then(user => {
+router.put('/adresses/:token', async (req, res) => {
+  User.findOne({ token: req.params.token }).then(user => {
     if (user === null) {
       res.json({ result: false, error: 'User not found' });
       return;
     } else {
 
-      const newAddress ={
+      const newAddress = {
         line1: req.body.formState.line1,
         line2: req.body.formState.line2,
         line3: req.body.formState.line3,
@@ -269,13 +269,13 @@ router.put('/adresses/:token', async(req,res)=>{
         infos: req.body.formState.infos,
       };
       if (!user.adresses.includes(newAddress)) { // User not already saved the address
-        User.updateOne({ token: req.params.token }, { $push: { adresses: newAddress} }) 
+        User.updateOne({ token: req.params.token }, { $push: { adresses: newAddress } })
           .then((addressData) => {
-                  res.json({result: true, message:'Adresse enregistrée avec succes'})
-                 })
-          }
-        }
-    });    
+            res.json({ result: true, message: 'Adresse enregistrée avec succes' })
+          })
+      }
+    }
+  });
 });
 
 
@@ -369,7 +369,7 @@ router.post('/forgot-password', async (req, res) => {
     // Créer un token de réinitialisation
     const resetToken = uid2(32);
     user.resetToken = resetToken;
-    user.resetTokenExpiration = Date.now() + 3600000; 
+    user.resetTokenExpiration = Date.now() + 3600000;
     await user.save();
     console.log("Token de réinitialisation généré :", resetToken);
 
@@ -381,14 +381,29 @@ router.post('/forgot-password', async (req, res) => {
       subject: 'Réinitialisation de mot de passe',
       html: `<p>Pour réinitialiser votre mot de passe, veuillez cliquer sur le lien suivant : <a href="${resetUrl}">${resetUrl}</a></p>`,
     };
+    await new Promise((resolve, reject) => {
+      // send mail
+      transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+          console.error("Erreur d'envoi d'email:", error);
 
-    transporter.sendMail(mailOptions, (error, info) => {
+          reject(err);
+        } else {
+          console.log(info);
+          resolve(info);
+        }
+      });
+    });
+    res.json({ success: true, message: "Un e-mail de réinitialisation a été envoyé." });
+
+ /*   transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         console.error("Erreur d'envoi d'email:", error);
         return res.status(500).json({ message: "Erreur lors de l'envoi de l'email" });
       }
       res.json({ success: true, message: "Un e-mail de réinitialisation a été envoyé." });
     });
+    */
   } catch (error) {
     console.error("Erreur dans la route forgot-password:", error);
     res.status(500).json({ message: "Erreur serveur" });
@@ -404,20 +419,20 @@ router.post('/reset-password', async (req, res) => {
   }
 
   try {
-    
+
     const user = await User.findOne({ resetToken: token, resetTokenExpiration: { $gt: Date.now() } });
     if (!user) {
       return res.status(400).json({ error: 'Token de réinitialisation invalide ou expiré' });
     }
 
-    
+
     const hash = bcrypt.hashSync(newPassword, 10);
     user.password = hash;
     user.resetToken = undefined; // Supprimer le token de réinitialisation
     user.resetTokenExpiration = undefined;
     await user.save();
 
-    
+
     res.json({ message: 'Mot de passe réinitialisé avec succès' });
   } catch (error) {
     console.error("Erreur dans la route reset-password:", error);

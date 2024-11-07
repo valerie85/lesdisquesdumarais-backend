@@ -410,7 +410,6 @@ router.post('/reset-password', async (req, res) => {
       return res.status(400).json({ error: 'Token de réinitialisation invalide ou expiré' });
     }
 
-    
     const hash = bcrypt.hashSync(newPassword, 10);
     user.password = hash;
     user.resetToken = undefined; // Supprimer le token de réinitialisation

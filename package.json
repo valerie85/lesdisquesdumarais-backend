@@ -15,7 +15,6 @@
     "express": "4.20.0",
     "express-fileupload": "^1.5.1",
     "express-mongo-sanitize": "^2.2.0",
-    "express-rate-limit": "^7.4.1",
     "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.7.2",

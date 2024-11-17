@@ -214,6 +214,38 @@ router.get('/:token', (req, res) => {
     });
 });
 
+router.put('/like', (req, res) => {
+  if (!checkBody(req.body, ['token', 'articleId'])) {
+    res.json({ result: false, error: 'Missing or empty fields' });
+    return;
+  }
+
+  User.findOne({ token: req.body.token }).then(user => {
+    if (user === null) {
+      res.json({ result: false, error: 'User not found' });
+      return;
+    }
+
+    Article.findById(req.body.articleId).then(articleData => {
+      if (!articleData) {
+        res.json({ result: false, error: 'Article not found' });
+        return;
+      }
+      if (user.favorites.includes(req.body.articleId)) { // User already liked the article
+        User.updateOne({ token: req.body.token }, { $pull: { favorites: req.body.articleId } }) // Remove article ID from likes
+          .then(() => {
+            res.json({ result: true, message: 'favorite removed' });
+          });
+      } else { // User has not liked the article
+        User.updateOne({ token: req.body.token }, { $push: { favorites: req.body.articleId } }) // Add article ID to likes
+          .then(() => {
+            res.json({ result: true, message: 'favorite added' });
+          });
+      }
+    });
+  });
+});
+
 router.put('/adresses/:token', async (req, res) => {
   User.findOne({ token: req.params.token }).then(user => {
     if (user === null) {
